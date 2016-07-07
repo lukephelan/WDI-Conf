@@ -2,10 +2,10 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
-  width: 102%;
+  z-index: 2;
+  width: 100%;
   background-color: #3B0332;
-  opacity: 0.5;
+  opacity: 1;
 }
 // a {
 //   color: white;
@@ -15,9 +15,10 @@ nav {
 //
 // }
 a {
+  z-index: 3;
   color: black;
-  margin: 3%;
-  font-size: 1.5em;
+  margin: 2%;
+  font-size: 2em;
   text-shadow:
         3px 3px 0 #D5E441,
       -1px -1px 0 #D5E441,
@@ -25,18 +26,23 @@ a {
        -1px 1px 0 #D5E441,
         1px 1px 0 #D5E441;
   text-decoration: none !important;
+  opacity: 1;
 
 
 }
 .links:link {
+  opacity: 1;
+
   color:   #D5E441 ;
   text-decoration: none !important;
 }
-.links:visited {
+.links:visited {  opacity: 1;
+
   color: #D5E441;
   text-decoration: none !important;
 }
-.links:hover {
+.links:hover {  opacity: 1;
+
   color: #D5E441;
   text-decoration: none !important;
 }
