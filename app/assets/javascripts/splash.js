@@ -25,7 +25,7 @@ $(function(){
       // container = document.createElement('div');
       // document.body.appendChild(container);
       container = $('<div>').addClass('splash-animation');
-      $('.splash').append(container);
+      $('#splash').append(container);
 
       // $('<div>').addClass('splash-animation');
 
