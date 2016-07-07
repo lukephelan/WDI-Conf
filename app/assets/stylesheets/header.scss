@@ -1,24 +1,25 @@
 nav {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 2;
-  width: 100%;
-  background-color: #3B0332;
-  opacity: 1;
+  max-width: 8%;
+  height: 100%;
+  background: #C3C3C3;
+  opacity: 0.8;
+  margin-right: 0.5%
 }
-// a {
-//   color: white;
-//   display: block;
-//   margin: 0;
-//   padding: 0;
-//
-// }
-a {
+.container {
+  justify-content: flex-end !important;
+}
+.links {
+  width: 100%;
+  display: block;
+  text-align:center;
   z-index: 3;
   color: black;
-  margin: 2%;
-  font-size: 2em;
+  margin: 15% 10%;
+  font-size: 1em;
   text-shadow:
         3px 3px 0 #D5E441,
       -1px -1px 0 #D5E441,
@@ -26,27 +27,33 @@ a {
        -1px 1px 0 #D5E441,
         1px 1px 0 #D5E441;
   text-decoration: none !important;
-  opacity: 1;
-
-
+  opacity: 0.5;
+  padding: 0;
 }
 .links:link {
   opacity: 1;
-
-  color:   #D5E441 ;
+  color:   black ;
   text-decoration: none !important;
+  opacity: 0.7;
 }
-.links:visited {  opacity: 1;
-
-  color: #D5E441;
+.links:visited {
+  opacity: 1;
+  color: black;
   text-decoration: none !important;
+  opacity: 0.7;
+
 }
-.links:hover {  opacity: 1;
-
-  color: #D5E441;
+.links:hover {
+  opacity: 1;
+  // background: gray;
+  transform: scale(1.6);
+  color: black;
   text-decoration: none !important;
+  opacity: 0.7;
 }
 .links:active {
-  color: #D5E441;
+  opacity: 1;
+  color: black;
   text-decoration: none !important;
+  opacity: 0.7;
 }
