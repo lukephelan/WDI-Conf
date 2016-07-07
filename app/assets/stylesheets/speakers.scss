@@ -9,10 +9,11 @@
 .grid-element {
   flex: 1 0 25%;
   box-sizing: border-box;
+  object-fit: cover;
 }
 
 .profile-pic {
-  width: 200px;
+  // width: 200px;
   height: 200px;
   border-radius: 50%;
   box-shadow: 3px 3px 3px #888888;
