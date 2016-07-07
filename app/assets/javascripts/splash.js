@@ -168,4 +168,6 @@ $(function(){
 
     }
 
+    $('.splash-animation').append($('<div>').addClass('logo').text("WDI CONF 2017"));
+
 });
