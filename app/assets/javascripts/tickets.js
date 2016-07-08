@@ -3,9 +3,9 @@ $(document).ready(function() {
   var pricePremium = 125.00;
   var priceGeneral = 75.00;
 
-  $.ajax({
-    url: '/api/seats'
-  }).done(function(seats) {
+  // $.ajax({
+  //   url: '/api/seats'
+  // }).done(function(seats) {
 
     // Add number of rows of seats.
     var rowArr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
