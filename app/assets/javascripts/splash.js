@@ -168,6 +168,13 @@ $(function(){
 
     }
 
-    $('.splash-animation').append($('<div>').addClass('logo').text("WDI CONF 2017"));
+    $('.splash-animation').append($('<div>').addClass('logo'));
+    $('.logo').append($('<span>').addClass('animated-text'));
+    $(".animated-text").typed({
+        strings: ["WDI Conf 2017"],
+        typeSpeed: 30
+      });
+      $('.logo').append($('<button>').addClass('call-to-action').text("Discover"));
+
 
 });
