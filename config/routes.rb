@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: "booking#_booking"
+  resources :seatings
+  root to: "home#index"
 end
