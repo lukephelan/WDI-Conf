@@ -3,8 +3,28 @@
   margin: 0px;
   overflow: hidden;
   height: 500px;
+  font-family: 'Space Mono' ;
+
+
 }
 
 a {
   color:#0078ff;
+}
+
+.splash-animation {
+  position: relative;
+}
+
+.logo {
+  color: white;
+  position: absolute;
+  top: 240px;
+  font-family: 'Space Mono' ;
+  font-size: 50px;
+  width:50%;
+  left: 37.5%;
+  height:100vh;
+
+
 }

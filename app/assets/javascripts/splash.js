@@ -29,10 +29,10 @@ $(function(){
 
       // $('<div>').addClass('splash-animation');
 
-      // $('.splash').append(container);
+      // $('#splash').append(container);
 
       camera = new THREE.PerspectiveCamera( 27, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
-      camera.position.z = 1000;
+      camera.position.z = 1500;
 
       scene = new THREE.Scene();
 
@@ -51,7 +51,7 @@ $(function(){
         program: function ( context ) {
 
           context.beginPath();
-          context.arc( 0, 0, 0.5, 0, PI2, true );
+          context.arc( 1, 0, 0.5, 0, PI2, true );
           context.fill();
 
         }
@@ -167,5 +167,7 @@ $(function(){
       renderer.render( scene, camera );
 
     }
+
+    $('.splash-animation').append($('<div>').addClass('logo').text("WDI CONF 2017"));
 
 });
