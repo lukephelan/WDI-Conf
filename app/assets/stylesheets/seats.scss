@@ -1,0 +1,158 @@
+// Place all the styles related to the seats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body,html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.front {
+    width: 300px;
+    margin: 5px 32px 45px 32px;
+    background-color: #f0f0f0;
+    color: #666;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+.booking-details {
+    float: right;
+    position: relative;
+    width: 200px;
+    height: 450px;
+}
+.booking-details h3 {
+    margin: 5px 5px 0 0;
+    font-size: 16px;
+}
+.booking-details p {
+    line-height: 36px;
+    font-size: 16px;
+    color: #999
+}
+.booking-details p span {
+    float: left;
+    color: #131a49;
+    position: relative;
+}
+div.seatCharts-cell {
+    color: #75a8d2;
+    height: 45px;
+    width: 60px;
+    line-height: 35px;
+    margin: 3px;
+    float: left;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+}
+div.seatCharts-seat {
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+div.seatCharts-row {
+    height: 35px;
+}
+// seat color
+div.seatCharts-seat.available {
+    background-color: rgba(#730404, 0.61);
+}
+//seat mouse hover
+div.seatCharts-seat.focused {
+    background-color: #b56767;
+    border: none;
+}
+//selected seat color
+div.seatCharts-seat.selected {
+    background-color: #1a792c;
+}
+div.seatCharts-seat.unavailable {
+    background-color: rgb(250, 0, 0);
+    cursor: not-allowed;
+}
+div.seatCharts-container {
+    width: 650px;
+    padding: 40px;
+    float: left;
+}
+div.seatCharts-legend {
+    padding-left: 0px;
+    position: relative;
+    height: 10%;
+}
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+.seatCharts-legendItem {
+    float: left;
+    width: 90px;
+    margin-top: 10px;
+    line-height: 2;
+}
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+//booking selected seat sbutton
+.checkout-button {
+    display: block;
+    width: 100px;
+    height: 34px;
+    line-height: 20px;
+    margin: 10px auto;
+    border: 1px solid #999;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 12px;
+    border: 1px solid #000000;
+    background: #ec5907;
+    margin: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center
+  }
+  #seat-map {
+    top: 6%;
+    position: relative;
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+#selected-seats {
+    max-height: 150px;
+    overflow-y: auto;
+    overflow-x: none;
+    width: 200px;
+}
+
+#selected-seats li {
+    float: right;
+    width: 72px;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #000000;
+    background: #ec5907;
+    margin: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center
+}
+.display-container {
+  margin: auto;
+  background-image: url('seat.jpg');
+	height: 100%;
+}
+#counter, #total{
+  color: rgb(250, 187, 0);
+
+}
+.booking-details{
+  display: block;
+  position: relative;
+  float: left;
+  left: 20%;
+}

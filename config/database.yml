@@ -20,7 +20,8 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-
+  username: 'postgres'
+  password: 'postgres'
 development:
   <<: *default
   database: WDI-Conf_development
@@ -81,5 +82,3 @@ test:
 production:
   <<: *default
   database: WDI-Conf_production
-  username: WDI-Conf
-  password: <%= ENV['WDI-CONF_DATABASE_PASSWORD'] %>
