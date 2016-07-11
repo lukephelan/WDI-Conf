@@ -32,7 +32,7 @@ $(function(){
       // $('#splash').append(container);
 
       camera = new THREE.PerspectiveCamera( 27, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
-      camera.position.z = 1100;
+      camera.position.z = 900;
 
       scene = new THREE.Scene();
 
