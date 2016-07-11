@@ -7,11 +7,17 @@ nav {
   // height: 100%;
   // background: #C3C3C3;
   opacity: 0.8;
-  margin-right: 0.5%
+  // margin-right: 1%;
+  overflow: hidden;
+  -webkit-transition: width 0.3s;
+  -moz-transition: width 0.3s;
+  transition: width 0.3s;
 }
 .Nav-container {
   justify-content: flex-end !important;
 }
+
+
 .links {
   width: 100%;
   display: block;
@@ -57,3 +63,33 @@ nav {
   text-decoration: none !important;
   opacity: 0.7;
 }
+
+nav, a{
+  transition: all 1s;
+  -moz-transition: all 1s; /* Firefox 4 */
+  -webkit-transition: all 1s; /* Safari and Chrome */
+  -o-transition: all 1s; /* Opera */
+}
+.hidden {
+  margin: -8%;
+}
+.visable {
+  margin: 2%;
+}
+// a:before
+// {
+//     position: absolute;
+//     width: 100%;
+//     height: 2px;
+//     left: 0px;
+//     top: 0px;
+//     content: '';
+//     background: #FFF;
+//     opacity: 0.3;
+//     transition: all 0.3s;
+// }
+//
+// a:hover:before
+// {
+//     height: 100%;
+// }
