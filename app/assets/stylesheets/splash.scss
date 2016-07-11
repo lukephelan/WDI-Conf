@@ -3,7 +3,7 @@
   margin: 0px;
   overflow: hidden;
   height: 500px;
-  font-family: 'Space Mono' ;
+  font-family: 'Monoton', cursive;
 
 
 }
@@ -21,8 +21,8 @@ a {
   text-align: center;
   position: absolute;
   top: 240px;
-  font-family: 'Space Mono' ;
-  font-size: 85px;
+font-family: 'Monoton', cursive;
+ font-size: 85px;
   width:100%;
   height:100vh;
 
@@ -34,7 +34,7 @@ a {
   color: white;
   position: absolute;
   top: 360px;
-  font-family: 'Space Mono' ;
+font-family: 'Lato', sans-serif;
   font-size: 85px;
   width:100%;
   height:100vh;
@@ -61,7 +61,7 @@ a {
 .button-text {
 height: calc(100% - 1rem);
 display: block;
-background: rgba(0, 0, 0, 0.85);
+background: rgba(0, 0, 0, 0.9);
 text-align: center;
 padding: 0.5rem 4rem;
 font-size: 1.7rem;
