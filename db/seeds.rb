@@ -60,3 +60,32 @@ speakers = Speaker.create([
     role: "Web Developer",
     bio: "Accountant turned web developer"},
   ])
+
+def generate_seats(num_of_seats, seats_per_row)
+  seats_array = []
+  row_array = ('A'..'Z').to_a
+  num_of_rows = num_of_seats / seats_per_row
+
+  num_of_rows.times do |row|
+    seats_per_row.times do |seating|
+      seating = seating + 1
+      seats_array<<row_array[row]+seating.to_s
+    end
+  end
+
+  num_of_seats.times do |seating|
+    seat = Seating.new
+    seat.seating = seats_array[seating]
+    seat.occupied = false
+    if seats_array[seating][0] == "A"
+      seat.price = '70'
+    else
+      seat.price = '50'
+    end
+    seat.save
+  end
+
+  return seats_array
+end
+generate_seats(60, 10)
+
