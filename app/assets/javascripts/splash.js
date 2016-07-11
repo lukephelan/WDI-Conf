@@ -174,7 +174,8 @@ $(function(){
         strings: ["WDI Conf 2017"],
         typeSpeed: 30
       });
-      $('.logo').append($('<button>').addClass('call-to-action').text("Discover"));
-
+      $('.splash-animation').append($('<div>').addClass('call-to-action'));
+      $('.call-to-action').append($('<a>').addClass('button'));
+      $('.button').append($('<span>').addClass('button-text').text("Discover"));
 
 });
