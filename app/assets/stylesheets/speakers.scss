@@ -8,18 +8,22 @@
   justify-content: space-between;
   align-items: flex-start;
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .grid-element {
   flex: 1 0 25%;
   box-sizing: border-box;
-  width: 200px;
+  width: 100px;
   object-fit: contain;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .profile-pic {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   box-shadow: 3px 3px 3px #888888;
   object-fit: cover;
