@@ -14,12 +14,12 @@
 }
 fieldset {
   border: none;
-  border-top: 1px solid #e6e6e6;
+  border-top: 1px solid #d1cccc;
   margin-top: 40px;
 }
 fieldset legend {
   font: bold 1.0em/1.25em "Helvetica Neue", Helvetica, sans-serif;
-color: #999;
+color: #837f7f;
   letter-spacing: 2px;
   border: 1px solid #cdcdcd;
   padding: 0.5em 0.75em;
@@ -32,15 +32,18 @@ color: #999;
 
 .sponsors {
   // display: inline-block;
-  width: 20%;
-  height: 150px;
+  // margin: auto;
+  width: 25%;
+  height: 170px;
+  list-style: none;
+  text-align: center;
 }
 
 .sponsors img {
   max-height: 100px;
-  max-width: 140px;
-  -webkit-filter: grayscale(100%);
-filter: grayscale(100%);
+  max-width: 160px;
+  -webkit-filter: grayscale(100%) opacity(35%);
+filter: grayscale(100%) opacity(35%);
 transition: 500ms ease-in-out;
 }
 
