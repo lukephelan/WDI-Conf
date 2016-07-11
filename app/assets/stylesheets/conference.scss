@@ -1,4 +1,4 @@
-li {
+#containee{
     border: 2px solid black;
 		border-radius: 20px;
     margin: 20px;
@@ -6,7 +6,7 @@ li {
 		width: 40%;
 		height: 40px;
 		display: center;
-		// list-style: none;
+		list-style: none;
 		text-align: left;
 		list-style-position: inside;
 }
@@ -44,10 +44,19 @@ li {
 	border-radius: 20px;
 }
 
-#Ephram{
-	// list-style-image: url('/assets/luke.jpg');
+// #Ephram{
+// 	list-style-image: url('/assets/luke_tn.jpg');
 	// height: 30px;
 	// width: 30px;
 	// border: 2px solid;
   // border-radius: 15px;
+// }
+
+.thumbnail-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px #888888;
+  object-fit: cover;
+  object-position: top;
 }
