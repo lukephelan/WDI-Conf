@@ -32,7 +32,7 @@ $(function(){
       // $('#splash').append(container);
 
       camera = new THREE.PerspectiveCamera( 27, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
-      camera.position.z = 1100;
+      camera.position.z = 900;
 
       scene = new THREE.Scene();
 
@@ -174,7 +174,8 @@ $(function(){
         strings: ["WDI Conf 2017"],
         typeSpeed: 30
       });
-      $('.logo').append($('<button>').addClass('call-to-action').text("Discover"));
-
+      $('.splash-animation').append($('<div>').addClass('call-to-action'));
+      $('.call-to-action').append($('<a>').addClass('button'));
+      $('.button').append($('<span>').addClass('button-text').text("Discover"));
 
 });
