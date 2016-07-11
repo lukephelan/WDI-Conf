@@ -22,6 +22,8 @@
   height: 200px;
   border-radius: 50%;
   box-shadow: 3px 3px 3px #888888;
+  object-fit: cover;
+  object-position: top;
 }
 
 img {
