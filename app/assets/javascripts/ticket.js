@@ -53,20 +53,31 @@ $(function(){
 	////////////////////////////////////////////////////////////
 	// CHANGE SEAT AVAILABILITY BASED ON EVENTS
 	////////////////////////////////////////////////////////////
-	
+	var seatstaken = []
+
 	$('.seat').on('click', function(){
 		// When clicking a seat, toggle between data-selected true & false.
-		var selected = $(this).attr('data-selected');
+		// var selected = $(this).attr('data-selected');
 		$(this).attr('data-selected') == "false" ? 
 			($(this).attr('data-selected', true)):
 			($(this).attr('data-selected', false));
+
+		if (seatstaken.indexOf($(this).attr('data-id')) > -1){
+			var i = seatstaken.indexOf($(this).attr('data-id'));
+			if(i != -1) {
+				seatstaken.splice(i, 1);
+			}
+		}
+		else {
+			seatstaken.push($(this).attr('data-id'));
+		};
 	});
 
-	// Stub code - Turn all selected seats (1) into reserved seats (2) on clicking book button
 	$('.button.book').on('click', function(){
-		
-		('.seatmessage').append(table);
+		var seatsjson = JSON.stringify(seatstaken);
+		console.log(seatsjson);
 	});
+
 
 	////////////////////////////////////////////////////////////
 	// CHANGE SEAT STATUS
