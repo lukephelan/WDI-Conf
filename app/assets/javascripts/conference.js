@@ -1,5 +1,5 @@
 function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {zoom: 10});
+        var map = new google.maps.Map(document.getElementById('map'), {zoom: 14});
         var geocoder = new google.maps.Geocoder;
         geocoder.geocode({'address': "52a Willam Street, Melbourne",}, function(results, status) {
           if (status === google.maps.GeocoderStatus.OK) {
