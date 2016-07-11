@@ -76,6 +76,7 @@ $(function(){
 	$('.button.book').on('click', function(){
 		var seatsjson = JSON.stringify(seatstaken);
 		console.log(seatsjson);
+		$.post("/seatings", seatsjson)
 	});
 
 
