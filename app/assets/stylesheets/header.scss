@@ -21,34 +21,36 @@ nav {
 
 
 .links {
+  // background: url('sos.png');
+
   width: 100%;
   display: block;
   text-align:left;
   z-index: 3;
-  color: black;
+  color: #282CC1;
   margin: 15% 5% 5% 5%;
   font-size: 1em;
-  text-shadow:
-        3px 3px 0 #D5E441,
-      -1px -1px 0 #D5E441,
-       1px -1px 0 #D5E441,
-       -1px 1px 0 #D5E441,
-        1px 1px 0 #D5E441;
+  // text-shadow:
+  //       3px 3px 0 #000000,
+  //     -1px -1px 0 #000000,
+  //      1px -1px 0 #000000,
+  //      -1px 1px 0 #000000,
+  //       1px 1px 0 #000000;
   text-decoration: none !important;
-  opacity: 0.5;
+  opacity: 0.9;
   padding: 0;
 }
 .links:link {
   text-align:left;
   opacity: 1;
-  color:   black ;
+  color:   #282CC1 ;
   text-decoration: none !important;
   opacity: 0.7;
 }
 .links:visited {
   text-align:left;
   opacity: 1;
-  color: black;
+  color: #282CC1;
   text-decoration: none !important;
   opacity: 0.7;
 
@@ -59,20 +61,20 @@ nav {
   // background: gray;
   transform: scale(1.2);
   z-index: 5000;
-  color: black;
+  color: #282CC1;
   text-decoration: none !important;
   opacity: 0.7;
 }
 .links:active {
   text-align:left;
   opacity: 1;
-  color: black;
+  color: #282CC1;
   text-decoration: none !important;
   opacity: 0.7;
 }
-.nav-container li {
-  border-style: 1px solid blue;
-}
+// .nav-container li {
+//   border-style: 1px solid blue;
+// }
 
 a.links {
   width: 80%;
@@ -84,12 +86,6 @@ nav, a{
   -moz-transition: all 1s; /* Firefox 4 */
   -webkit-transition: all 1s; /* Safari and Chrome */
   -o-transition: all 1s; /* Opera */
-}
-.hidden {
-  margin: -8%;
-}
-.visable {
-  margin: 2%;
 }
 // a:before
 // {
