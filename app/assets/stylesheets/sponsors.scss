@@ -1,0 +1,53 @@
+#sponsors-wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.sponsor-level-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding-left: 0;
+}
+fieldset {
+  border: none;
+  border-top: 1px solid #d1cccc;
+  margin-top: 40px;
+}
+fieldset legend {
+  font: bold 1.0em/1.25em "Helvetica Neue", Helvetica, sans-serif;
+color: #837f7f;
+  letter-spacing: 2px;
+  border: 1px solid #cdcdcd;
+  padding: 0.5em 0.75em;
+  margin: 0 auto 0 auto;
+  -webkit-border-radius: 7px;
+          border-radius: 7px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+}
+
+.sponsors {
+  // display: inline-block;
+  // margin: auto;
+  width: 25%;
+  height: 170px;
+  list-style: none;
+  text-align: center;
+}
+
+.sponsors img {
+  max-height: 100px;
+  max-width: 160px;
+  -webkit-filter: grayscale(100%) opacity(35%);
+filter: grayscale(100%) opacity(35%);
+transition: 500ms ease-in-out;
+}
+
+.sponsors img:hover {
+  -webkit-filter: grayscale(0%);
+filter: grayscale(0%);
+}
