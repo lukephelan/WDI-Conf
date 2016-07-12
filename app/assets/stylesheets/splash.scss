@@ -3,7 +3,7 @@
   margin: 0px;
   overflow: hidden;
   height: 500px;
-  font-family: 'Space Mono' ;
+  font-family: 'Monoton', cursive;
 
 
 }
@@ -18,19 +18,54 @@ a {
 
 .logo {
   color: white;
+  text-align: center;
   position: absolute;
   top: 240px;
-  font-family: 'Space Mono' ;
-  font-size: 85px;
+font-family: 'Monoton', cursive;
+ font-size: 85px;
   width:100%;
   height:100vh;
-  
 
 }
 
 
 .call-to-action {
-  position: relative; ;
+  position: relative;
+  color: white;
+  position: absolute;
+  top: 360px;
+font-family: 'Lato', sans-serif;
+  font-size: 85px;
+  width:100%;
+  height:100vh;
+
+}
+
+.button {
+  margin:2rem auto;
+  display: block;
+  height:50px;
+  width:300px;
+  padding:2px;
+  text-decoration: none;
+  font-weight:300;
+  overflow:hidden;
+  transition: all .2s linear;
+  background: -webkit-linear-gradient(-45deg, rgba(38,43,193,1) 1%,rgba(214,85,128,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  &:hover {
+    background: -webkit-linear-gradient(75deg, rgba(38,43,193,1) 1%,rgba(214,85,128,1) 100%); /* Chrome10+,Safari5.1+ */
+  }
+}
+
+.button-text {
+height: calc(100% - 1rem);
+display: block;
+background: rgba(0, 0, 0, 0.9);
+text-align: center;
+padding: 0.5rem 4rem;
+font-size: 1.7rem;
+color: #fff;
 }
 
 .typed-cursor{
