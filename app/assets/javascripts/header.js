@@ -1,7 +1,6 @@
 /*global $, scrollTop, location, document*/
 $(function () {
 
-
 $('a[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
             var target = $(this.hash);
@@ -17,20 +16,14 @@ $('a[href*="#"]:not([href="#"])').click(function () {
 
 
     $(document).on("scroll", function () {
-        if ($(document).scrollTop() > 100) {
-            $("navbar").removeClass("hidden").addClass("visable");
-        } else {
-            $("navbar").removeClass("visable").addClass("hidden");
-        }
-    });
+      // console.log("fired");
+          var height = $(window).scrollTop();
+          // console.log(height);
 
-    $('window').scroll(function () {
-        var height = $(window).scrollTop();
-        console.log(height);
-        if (height < 500) {
-            $('.navbar').css('margin-right', '-8%');
+        if (height < 587) {
+                  $('.navbar').css('margin-right', '-30%');
         } else {
-            $('.navbar').css('margin-right', '1%');
+                  $('.navbar').css('margin-right', '2%');
         }
     });
 });
