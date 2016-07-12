@@ -175,7 +175,21 @@ $(function(){
         typeSpeed: 30
       });
       $('.splash-animation').append($('<div>').addClass('call-to-action'));
-      $('.call-to-action').append($('<a>').addClass('button'));
-      $('.button').append($('<span>').addClass('button-text').text("Discover"));
+      $('.call-to-action').append($('<a>').addClass('discover-button'));
+      $('.discover-button').append($('<span>').addClass('button-text').text("Discover"));
+
+      // This is a functions that scrolls to #{blah}link
+      function goToByScroll(id){
+         $('html,body').animate({
+             scrollTop: $(id).offset().top},
+             'slow');
+      }
+
+      $(".discover-button").click(function() {
+
+         goToByScroll("#Conf_Location");
+      });
+
+
 
 });
