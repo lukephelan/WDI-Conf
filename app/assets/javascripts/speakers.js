@@ -39,7 +39,7 @@ $(function(){
 
     // When the user clicks on <span> (x), close the modal
     $('.close').click(function() {
-        $('.modal').css("display", "none");
+        $('.modal-speaker').css("display", "none");
     // spanThomas.onclick = function() {
     //     modalThomas.style.display = "none";
     })
