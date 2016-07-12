@@ -72,7 +72,7 @@
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	// margin: 10px 15px;
 	vertical-align: middle;
 }
 
@@ -150,6 +150,7 @@
 
 	.footer-distributed{
 		font: bold 14px sans-serif;
+
 	}
 
 	.footer-distributed .footer-left,
@@ -157,7 +158,7 @@
 	.footer-distributed .footer-right{
 		display: block;
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 0px;
 		text-align: center;
 	}
 
