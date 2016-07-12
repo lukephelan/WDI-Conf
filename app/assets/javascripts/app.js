@@ -18,16 +18,6 @@ $(document).ready(function() {
 
         // 'a[ID,LABEL]a[ID2,LABEL2]a___a[JUST_ID1]aa',
 
-    var sc = $('#seat-map').seatCharts({
-        map: [ //Seating charts
-            'aaaa_aaaaa',
-            'aaaa_aaaaa',
-            'aaaaaaaaaa',
-            'aaaaaaaa__',
-            'aaaaaaaaaa',
-            'aaaaaaaaaa'
-        ],
->>>>>>> 79e53f9d534b5d71693d021c8eab542f53903d0f
         naming: {
             top: false,
             getLabel: function(character, row, column) {
@@ -42,8 +32,6 @@ $(document).ready(function() {
             ]
         },
         click: function() { //Click event
-            console.log(this.settings.row + " " + this.settings.label);
-            console.log(this.status());
             if (this.status() == 'available') { //optional seat
 
                 $('<li>R' + (this.settings.row + 1) + ' S' + this.settings.label + '</li>')
@@ -53,7 +41,9 @@ $(document).ready(function() {
 
                 $counter.text(sc.find('selected').length + 1);
                 $total.text(recalculateTotal(sc) + price);
-                seatstaken.push(this.settings.row + " " + this.settings.label);
+
+                seatstaken.push(this.settings.id);
+
                 return 'selected';
             } else if (this.status() == 'selected') { //Checked
                 //Update Number
@@ -70,28 +60,24 @@ $(document).ready(function() {
             } else {
                 return this.style();
             }
+
         }
     });
     //sold seat
-    sc.get(['1_2', '4_4', '4_5', '6_6', '6_7', '8_5', '8_6', '8_7', '8_8', '10_1', '10_2']).status('unavailable');
-});
-//sum total money
+    //sum total money
+    function recalculateTotal(sc) {
+        var total = 0;
+        sc.find('selected').each(function() {
+            total += price;
+        });
+        return total;
+    }
 
-    // sc.get(['1_2', '4_4', '4_5', '6_6', '6_7', '8_5', '8_6', '8_7', '8_8', '10_1', '10_2']).status('unavailable');
-
-});
-//sum total money
-function recalculateTotal(sc) {
-    var total = 0;
-    sc.find('selected').each(function() {
-        total += price;
+    $('.checkout-button').on('click', function() {
+        for (var i = 0; i < seatstaken.length; i++) {
+            sc.get(seatstaken[i]).status('unavailable');
+            console.log(seatstaken[i]);
+        }
     });
-    return total;
-}
 
-$('.checkout-button').on('click', function() {
-    console.log("Click event of the button");
 });
-
-    return total;
-}
