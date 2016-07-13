@@ -43,7 +43,6 @@ $(document).ready(function() {
                 $total.text(recalculateTotal(sc) + price);
 
                 seatstaken.push(this.settings.id);
-
                 return 'selected';
             } else if (this.status() == 'selected') { //Checked
                 //Update Number
