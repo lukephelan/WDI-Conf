@@ -36,6 +36,5 @@ $('a[href*="#"]:not([href="#"])').click(function () {
         else {$("#sponsor").css('color', '#282CC1')}
         if (height > 2078 && height < 3460 || height > 4033){$("#foot").css('color', 'white')}
         else {$("#foot").css('color', '#282CC1')}
-
     });
 });
