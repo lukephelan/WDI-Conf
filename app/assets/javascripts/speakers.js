@@ -19,7 +19,7 @@ $(function(){
         modalThomas.style.display = "block";
     });
 
-    // When the user clicks on <span> (x), close the modal
+    // // When the user clicks on <span> (x), close the modal
     spanThomas.onclick = function() {
         modalThomas.style.display = "none";
     }
