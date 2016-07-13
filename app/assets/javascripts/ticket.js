@@ -75,12 +75,7 @@ $(function(){
 
 	$('.button.book').on('click', function(){
 		$.post("/seatings", { seating: seatstaken});
+		console.log({seating: seatstaken});
 	});
-
-
-	////////////////////////////////////////////////////////////
-	// CHANGE SEAT STATUS
-	////////////////////////////////////////////////////////////
-
 
 });

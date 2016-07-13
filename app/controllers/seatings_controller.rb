@@ -8,7 +8,7 @@ class SeatingsController < ApplicationController
 	def create
 		params[:seating].each do |s|
 			seat = Seating.new
-			seat.name = s
+			seat.seating = s
 			seat.occupied = true
 			seat.save
 			# seat === seatnumber e.g. A1, B2 etc.
