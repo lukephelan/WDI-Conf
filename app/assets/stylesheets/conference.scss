@@ -1,18 +1,8 @@
-#body {
-		font-family: verdana;
-		font-color: white;
-}
-
 #h3 {
 	color: black;
 }
 
-#p {
-    color: white;
-}
-
 .conference {
-	// max-width: 800px;
 	margin: 5px;
 	height: 100%;
 }
@@ -35,16 +25,16 @@
     display: -webkit-flex;
     display: flex;
     width: 90%;
-    height: 250px;
+    height: 300px;
     margin-left: 30px;
 }
 
 #description{
-	margin-left: 50px;
-	width: 50%;
-	margin: 20px;
+	width: 30%;
+	margin: 50px;
 }
 
 #where{
+	margin: 20px;
 	width: 30%
 }
