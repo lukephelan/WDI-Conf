@@ -3,7 +3,7 @@ $(document).ready(function() {
     var $cart = $('#selected-seats'), //Sitting Area
         $counter = $('#counter'), //Votes
         $total = $('#total'); //Total money
-    var seatstaken = [];
+    var seatstaken = [ "1_1", "2_2" ];
 
     var sc = $('#seat-map').seatCharts({
         map: [ //Seating charts
@@ -73,10 +73,12 @@ $(document).ready(function() {
     }
 
     $('.checkout-button').on('click', function() {
-        for (var i = 0; i < seatstaken.length; i++) {
-            sc.get(seatstaken[i]).status('unavailable');
-            console.log(seatstaken[i]);
-        }
+        // for (var i = 0; i < seatstaken.length; i++) {
+        //     sc.get(seatstaken[i]).status('unavailable');
+            console.log(seatstaken);
+        //     $('.seats-input').val(seatstaken[i]);
+        // }
+        $('.seats-input').val(seatstaken);
     });
 
 });

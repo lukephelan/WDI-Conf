@@ -7,10 +7,10 @@
         <ul id="selected-seats"></ul>
         <p> Tickets: <span id="counter">0</span></p>
         <p> Total: <b>$<span id="total">0</span></b></p>
-
-        <button class="checkout-button">BOOK</button>
-
-        <!-- <div id="legend"></div> -->
+        <%= form_for :post, url: '/seatings' do |f| %>
+	        <%= f.text_field :seats, :class => 'seats-input' %>
+	        <%= f.submit "Book Seats", :class => 'checkout-button' %>
+	    <% end %>
     </div>
     <div style="clear:both"></div>
 </div>

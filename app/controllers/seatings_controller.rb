@@ -6,14 +6,9 @@ class SeatingsController < ApplicationController
 	end
 
 	def create
-		params[:seating].each do |s|
-			seat = Seating.new
-			seat.seating = s
-			seat.occupied = true
-			seat.save
-			# seat === seatnumber e.g. A1, B2 etc.
-		end
-		render json: params
+		seat = Seating.new
+		# seat.seating = params[:seats]
+		seat.save
 	end
 
 	def update
