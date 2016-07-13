@@ -187,7 +187,7 @@ $(function(){
 
       $(".discover-button").click(function() {
 
-         goToByScroll("#Conf_Location");
+         goToByScroll(".conference");
       });
 
 
