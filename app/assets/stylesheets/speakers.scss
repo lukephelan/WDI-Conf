@@ -1,9 +1,10 @@
 #Profile {
   text-align: center;
-  background: black;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url('sky-night-space-trees.jpeg');
+  background-size: cover;
 }
 
 #speakers-header {
@@ -42,10 +43,12 @@
   box-shadow:  0 1px 0 0 rgba(0,0,0,.1);
   object-fit: cover;
   object-position: top;
+  transition: all 0.5s ease;
 }
 
 .profile-pic:hover {
   cursor: pointer;
+  border: .15em solid #6a1b9a;
 }
 
 .profile-text {
@@ -61,7 +64,7 @@
   margin-right: -1em;
   margin-bottom: .75em;
   margin-left: -1em;
-  // border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
   padding-bottom: .75em;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -110,7 +113,7 @@
 }
 
 .close:hover,
-.closepi:focus {
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
