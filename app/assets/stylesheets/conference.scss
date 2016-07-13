@@ -47,3 +47,11 @@
 	width: 50%;
 	margin: 20px;
 }
+
+.map {
+    -webkit-filter: grayscale(80%);
+       -moz-filter: grayscale(80%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(80%);
+}
