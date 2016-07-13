@@ -12,7 +12,7 @@
 }
 
 .conference {
-	max-width: 800px;
+	// max-width: 800px;
 	margin: 5px;
 	height: 100%;
 }
@@ -23,10 +23,28 @@
 }
 
 #map{
-	display: right;
-	max-width: 260px;
-	height: 300px;
-	margin: 5 px;
-	border: 2px solid black;
-	border-radius: 20px;
+	-webkit-filter: grayscale(80%);
+  -moz-filter: grayscale(80%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(80%);
+	margin-top: 100px;
+}
+
+#group{
+    display: -webkit-flex;
+    display: flex;
+    width: 90%;
+    height: 250px;
+    margin-left: 30px;
+}
+
+#description{
+	margin-left: 50px;
+	width: 50%;
+	margin: 20px;
+}
+
+#where{
+	width: 30%
 }

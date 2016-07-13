@@ -6,6 +6,9 @@ html, body {
 body {
   background: #25303B;
 }
+#timetable{
+	margin-top: 50px;
+}
 section#timeline {
   width: 80%;
   margin: 20px auto;
@@ -179,4 +182,80 @@ section#timeline article:nth-child(13) div.inner h2 {
 }
 section#timeline article:nth-child(13) div.inner h2:after {
   background: #cccc00;
+  background: #512da8;
+}
+section#timeline article:nth-child(1) div.inner h2:after {
+  background: #512da8;
+}
+section#timeline article:nth-child(2) div.inner h2 {
+  background: #ff4081;
+}
+section#timeline article:nth-child(2) div.inner h2:after {
+  background: #ff4081;
+}
+section#timeline article:nth-child(3) div.inner h2 {
+  background: #64b5f6;
+}
+section#timeline article:nth-child(3) div.inner h2:after {
+  background: #64b5f6;
+}
+section#timeline article:nth-child(4) div.inner h2 {
+  background: #ba68c8;
+}
+section#timeline article:nth-child(4) div.inner h2:after {
+  background: #ba68c8;
+}
+section#timeline article:nth-child(5) div.inner h2 {
+  background: #512da8;
+}
+section#timeline article:nth-child(5) div.inner h2:after {
+  background: #512da8;
+}
+section#timeline article:nth-child(6) div.inner h2 {
+  background: #ff4081;
+}
+section#timeline article:nth-child(6) div.inner h2:after {
+  background: #ff4081;
+}
+section#timeline article:nth-child(7) div.inner h2 {
+  background: #64b5f6;
+}
+section#timeline article:nth-child(7) div.inner h2:after {
+  background: #64b5f6;
+}
+section#timeline article:nth-child(8) div.inner h2 {
+  background: #ba68c8;
+}
+section#timeline article:nth-child(8) div.inner h2:after {
+  background: #ba68c8;
+}
+section#timeline article:nth-child(9) div.inner h2 {
+  background: #512da8;
+}
+section#timeline article:nth-child(9) div.inner h2:after {
+  background: #512da8;
+}
+section#timeline article:nth-child(10) div.inner h2 {
+  background: #ff4081;
+}
+section#timeline article:nth-child(10) div.inner h2:after {
+  background: #ff4081;
+}
+section#timeline article:nth-child(11) div.inner h2 {
+  background: #64b5f6;
+}
+section#timeline article:nth-child(11) div.inner h2:after {
+  background: #64b5f6;
+}
+section#timeline article:nth-child(12) div.inner h2 {
+  background: #ba68c8;
+}
+section#timeline article:nth-child(12) div.inner h2:after {
+  background: #ba68c8;
+}
+section#timeline article:nth-child(13) div.inner h2 {
+  background: #512da8;
+}
+section#timeline article:nth-child(13) div.inner h2:after {
+  background: #512da8;
 }
