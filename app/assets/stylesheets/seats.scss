@@ -53,19 +53,19 @@ div.seatCharts-row {
 }
 // seat color
 div.seatCharts-seat.available {
-    background-color: rgba(#730404, 0.61);
+    background-color: #8e24aa;
 }
 //seat mouse hover
 div.seatCharts-seat.focused {
-    background-color: #b56767;
+    background-color: #ba68c8;
     border: none;
 }
-//selected seat color
+
 div.seatCharts-seat.selected {
-    background-color: #1a792c;
+    background-color: #ff4081;
 }
 div.seatCharts-seat.unavailable {
-    background-color: rgb(250, 0, 0);
+    background-color: #546e7a;
     cursor: not-allowed;
 }
 div.seatCharts-container {
@@ -138,7 +138,8 @@ span.seatCharts-legendDescription {
 }
 .display-container {
   margin: auto;
-  background-image: url('seat.jpg');
+  background-color: black;
+  // background-image: url('seat.jpg');
 	height: 100%;
 }
 #counter, #total{
