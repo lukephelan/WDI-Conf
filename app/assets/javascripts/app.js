@@ -33,6 +33,15 @@ $(document).ready(function() {
         },
         click: function() { //Click event
             if (this.status() == 'available') { //optional seat
+
+                $('<li>R' + (this.settings.row + 1) + ' S' + this.settings.label + '</li>')
+                    .attr('id', 'cart-item-' + this.settings.id)
+                    .data('seatId', this.settings.id)
+                    .appendTo($cart);
+
+                $counter.text(sc.find('selected').length + 1);
+                $total.text(recalculateTotal(sc) + price);
+
                 seatstaken.push(this.settings.id);
                 return 'selected';
             } else if (this.status() == 'selected') { //Checked
@@ -70,4 +79,4 @@ $(document).ready(function() {
         }
     });
 
-});]
+});
