@@ -3,7 +3,12 @@
   color: white;
   padding-top: 100px;
   padding-bottom: 100px;
-  background: url('sky-night-space-trees.jpg');
+  background:
+  linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url('sky-night-space-trees.jpg');
   background-size: cover;
 }
 
