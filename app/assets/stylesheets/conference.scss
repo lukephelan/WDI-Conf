@@ -23,11 +23,12 @@
 }
 
 #map{
-	// display: right;
-	// margin-left: 5 px;
+	-webkit-filter: grayscale(80%);
+  -moz-filter: grayscale(80%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(80%);
 	margin-top: 100px;
-	// border: 2px solid black;
-	// border-radius: 20px;
 }
 
 #group{
@@ -38,12 +39,12 @@
     margin-left: 30px;
 }
 
-#where{
-	width: 30%
-}
-
 #description{
 	margin-left: 50px;
 	width: 50%;
 	margin: 20px;
+}
+
+#where{
+	width: 30%
 }

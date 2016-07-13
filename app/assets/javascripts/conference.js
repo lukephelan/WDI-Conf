@@ -1,4 +1,11 @@
-function initMap() {
+function initMap(options) {
+		options = $.extend({
+			scrollwheel: true,
+			navigationControl: true,
+			mapTypeControl: true,
+			scaleControl: true,
+			draggable: true,
+		}, options);
         var map = new google.maps.Map(document.getElementById('map'), {zoom: 14});
         var geocoder = new google.maps.Geocoder;
         geocoder.geocode({'address': "52a William Street, Melbourne, Vic 3000"}, function(results, status) {
