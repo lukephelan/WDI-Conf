@@ -54,7 +54,7 @@
 
 .profile-pic:hover {
   cursor: pointer;
-  border: .2em solid black;
+  // border: .2em solid black;
 }
 
 .profile-text {
@@ -68,10 +68,10 @@
   transition: all 0.8s ease;
 }
 
-// .profile-text:hover {
-//   cursor: pointer;
-//   border: .2em solid black;
-// }
+.profile-text:hover {
+  cursor: pointer;
+  // border: .2em solid black;
+}
 
 // .grid-element:hover {
 //   cursor: pointer;
