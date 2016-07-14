@@ -8,11 +8,15 @@ $(function(){
     $('#thomas-pic, #profile-thomas').hover(
         function() {
             $('#profile-thomas').css('border', '.2em solid black');
+            // $('#profile-thomas').css('background', '#546e7a');
             $('#thomas-pic').css('border', '.2em solid black');
+            // $('#profile-thomas').css('color', 'white');
         },
         function() {
-            $('#profile-thomas').css('border', '.2em solid white');
-            $('#thomas-pic').css('border', '.2em solid white');
+            $('#profile-thomas').css('border', '.2em solid #f1f1f1');
+            // $('#profile-thomas').css('background', 'white');
+            $('#thomas-pic').css('border', '.2em solid #f1f1f1');
+            // $('#profile-thomas').css('color', 'black');
     });
 
     $('#luke-pic, #profile-luke').click(function() {
@@ -25,8 +29,8 @@ $(function(){
             $('#luke-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-luke').css('border', '.2em solid white');
-            $('#luke-pic').css('border', '.2em solid white');
+            $('#profile-luke').css('border', '.2em solid #f1f1f1');
+            $('#luke-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#yogi-pic, #profile-yogi').click(function() {
@@ -39,8 +43,8 @@ $(function(){
             $('#yogi-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-yogi').css('border', '.2em solid white');
-            $('#yogi-pic').css('border', '.2em solid white');
+            $('#profile-yogi').css('border', '.2em solid #f1f1f1');
+            $('#yogi-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#stephen-pic, #profile-stephen').click(function() {
@@ -53,8 +57,8 @@ $(function(){
             $('#stephen-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-stephen').css('border', '.2em solid white');
-            $('#stephen-pic').css('border', '.2em solid white');
+            $('#profile-stephen').css('border', '.2em solid #f1f1f1');
+            $('#stephen-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#ephrem-pic, #profile-ephrem').click(function() {
@@ -67,8 +71,8 @@ $(function(){
             $('#ephrem-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-ephrem').css('border', '.2em solid white');
-            $('#ephrem-pic').css('border', '.2em solid white');
+            $('#profile-ephrem').css('border', '.2em solid #f1f1f1');
+            $('#ephrem-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#mark-pic, #profile-mark').click(function() {
@@ -81,8 +85,8 @@ $(function(){
             $('#mark-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-mark').css('border', '.2em solid white');
-            $('#mark-pic').css('border', '.2em solid white');
+            $('#profile-mark').css('border', '.2em solid #f1f1f1');
+            $('#mark-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#brad-pic, #profile-brad').click(function() {
@@ -95,8 +99,8 @@ $(function(){
             $('#brad-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-brad').css('border', '.2em solid white');
-            $('#brad-pic').css('border', '.2em solid white');
+            $('#profile-brad').css('border', '.2em solid #f1f1f1');
+            $('#brad-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#yang-pic, #profile-yang').click(function() {
@@ -109,8 +113,8 @@ $(function(){
             $('#yang-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-yang').css('border', '.2em solid white');
-            $('#yang-pic').css('border', '.2em solid white');
+            $('#profile-yang').css('border', '.2em solid #f1f1f1');
+            $('#yang-pic').css('border', '.2em solid #f1f1f1');
     });
 
     $('#niall-pic, #profile-niall').click(function() {
@@ -123,8 +127,8 @@ $(function(){
             $('#niall-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-niall').css('border', '.2em solid white');
-            $('#niall-pic').css('border', '.2em solid white');
+            $('#profile-niall').css('border', '.2em solid #f1f1f1');
+            $('#niall-pic').css('border', '.2em solid #f1f1f1');
     });
 
     // When the user clicks on <span> (x), close the modal
