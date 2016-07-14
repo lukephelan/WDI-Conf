@@ -36,7 +36,7 @@ $('a[href*="#"]:not([href="#"])').click(function () {
           var footerStart = $("#footerStart").offset().top;
           var bookingEnd = $("#bookingEnd").offset().top;
           var splashbottom = $("#splashBottom").offset().top;
-          var heightTop = $("#top").offset().top;
+          var heightTop = 6 + $("#top").offset().top;
 
           var height = $(window).scrollTop();
 
@@ -62,27 +62,27 @@ $('a[href*="#"]:not([href="#"])').click(function () {
             if (heightTop > profileDiv && heightTop < bookingEnd || heightTop > footerStart){$("#top").css('color', 'white')}
             else {$("#top").css('color', '#282CC1')}
 
-            var heightConf = $("#conf").offset().top;
+            var heightConf = 6 + $("#conf").offset().top;
             if (heightConf > profileDiv && heightConf < bookingEnd || heightConf > footerStart){$("#conf").css('color', 'white')}
             else {$("#conf").css('color', '#282CC1')}
 
-            var heightTime = $("#time").offset().top;
+            var heightTime = 6 + $("#time").offset().top;
             if (heightTime > profileDiv && heightTime < bookingEnd || heightTime > footerStart){$("#time").css('color', 'white')}
             else {$("#time").css('color', '#282CC1')}
 
-            var heightProf = $("#prof").offset().top;
+            var heightProf = 6 + $("#prof").offset().top;
             if (heightProf > profileDiv && heightProf < bookingEnd || heightProf > footerStart){$("#prof").css('color', 'white')}
             else {$("#prof").css('color', '#282CC1')}
 
-            var heightSeats = $("#seats").offset().top;
+            var heightSeats = 6 + $("#seats").offset().top;
             if (heightSeats > profileDiv && heightSeats < bookingEnd || heightSeats > footerStart){$("#seats").css('color', 'white')}
             else {$("#seats").css('color', '#282CC1')}
 
-            var heightSponsor = $("#sponsor").offset().top;
+            var heightSponsor = 6 + $("#sponsor").offset().top;
             if (heightSponsor > profileDiv && heightSponsor < bookingEnd || heightSponsor > footerStart){$("#sponsor").css('color', 'white')}
             else {$("#sponsor").css('color', '#282CC1')}
 
-            var heightFooter = $('#foot').offset().top;
+            var heightFooter = 6 + $('#foot').offset().top;
             if (heightFooter > profileDiv && heightFooter < bookingEnd || heightFooter > footerStart){$("#foot").css('color', 'white')}
             else {$("#foot").css('color', '#282CC1')}
     });
