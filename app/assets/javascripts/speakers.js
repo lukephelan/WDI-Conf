@@ -1,121 +1,131 @@
 $(function(){
 
     // When user clicks on a speaker photo, display the modal
-    $('#thomas-pic').click(function() {
+    $('#thomas-pic, #profile-thomas').click(function() {
         $('#modal-thomas').css("display", "block");
     });
 
-    $('#thomas-pic').hover(
+    $('#thomas-pic, #profile-thomas').hover(
         function() {
             $('#profile-thomas').css('border', '.2em solid black');
+            $('#thomas-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-thomas').css('border', '.2em solid white');
-        });
+            $('#profile-thomas').css('border', '.2em solid #f1f1f1');
+            $('#thomas-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#thomas-pic').hover(
-        function() {
-$('#profile-thomas').css('border', '.2em solid black');
-        },
-        function() {
-            $('#profile-thomas').css('border', '.2em solid white');
-        });
-
-    $('#luke-pic').click(function() {
+    $('#luke-pic, #profile-luke').click(function() {
         $('#modal-luke').css("display", "block");
     });
 
-    $('#luke-pic').hover(
+    $('#luke-pic, #profile-luke').hover(
         function() {
             $('#profile-luke').css('border', '.2em solid black');
+            $('#luke-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-luke').css('border', '.2em solid white');
-        });
+            $('#profile-luke').css('border', '.2em solid #f1f1f1');
+            $('#luke-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#yogi-pic').click(function() {
+    $('#yogi-pic, #profile-yogi').click(function() {
         $('#modal-yogi').css("display", "block");
     });
 
-    $('#yogi-pic').hover(
+    $('#yogi-pic, #profile-yogi').hover(
         function() {
             $('#profile-yogi').css('border', '.2em solid black');
+            $('#yogi-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-yogi').css('border', '.2em solid white');
-        });
+            $('#profile-yogi').css('border', '.2em solid #f1f1f1');
+            $('#yogi-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#stephen-pic').click(function() {
+    $('#stephen-pic, #profile-stephen').click(function() {
         $('#modal-stephen').css("display", "block");
     });
 
-    $('#stephen-pic').hover(
+    $('#stephen-pic, #profile-stephen').hover(
         function() {
             $('#profile-stephen').css('border', '.2em solid black');
+            $('#stephen-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-stephen').css('border', '.2em solid white');
-        });
+            $('#profile-stephen').css('border', '.2em solid #f1f1f1');
+            $('#stephen-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#ephrem-pic').click(function() {
+    $('#ephrem-pic, #profile-ephrem').click(function() {
         $('#modal-ephrem').css("display", "block");
     });
 
-    $('#ephrem-pic').hover(
+    $('#ephrem-pic, #profile-ephrem').hover(
         function() {
             $('#profile-ephrem').css('border', '.2em solid black');
+            $('#ephrem-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-ephrem').css('border', '.2em solid white');
-        });
+            $('#profile-ephrem').css('border', '.2em solid #f1f1f1');
+            $('#ephrem-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#mark-pic').click(function() {
+    $('#mark-pic, #profile-mark').click(function() {
         $('#modal-mark').css("display", "block");
     });
 
-    $('#mark-pic').hover(
+    $('#mark-pic, #profile-mark').hover(
         function() {
             $('#profile-mark').css('border', '.2em solid black');
+            $('#mark-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-mark').css('border', '.2em solid white');
-        });
+            $('#profile-mark').css('border', '.2em solid #f1f1f1');
+            $('#mark-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#brad-pic').click(function() {
+    $('#brad-pic, #profile-brad').click(function() {
         $('#modal-brad').css("display", "block");
     });
 
-    $('#brad-pic').hover(
+    $('#brad-pic, #profile-brad').hover(
         function() {
             $('#profile-brad').css('border', '.2em solid black');
+            $('#brad-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-brad').css('border', '.2em solid white');
-        });
+            $('#profile-brad').css('border', '.2em solid #f1f1f1');
+            $('#brad-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#yang-pic').click(function() {
+    $('#yang-pic, #profile-yang').click(function() {
         $('#modal-yang').css("display", "block");
     });
 
-    $('#yang-pic').hover(
+    $('#yang-pic, #profile-yang').hover(
         function() {
             $('#profile-yang').css('border', '.2em solid black');
+            $('#yang-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-yang').css('border', '.2em solid white');
-        });
+            $('#profile-yang').css('border', '.2em solid #f1f1f1');
+            $('#yang-pic').css('border', '.2em solid #f1f1f1');
+    });
 
-    $('#niall-pic').click(function() {
+    $('#niall-pic, #profile-niall').click(function() {
         $('#modal-niall').css("display", "block");
     });
 
-    $('#niall-pic').hover(
+    $('#niall-pic, #profile-niall').hover(
         function() {
             $('#profile-niall').css('border', '.2em solid black');
+            $('#niall-pic').css('border', '.2em solid black');
         },
         function() {
-            $('#profile-niall').css('border', '.2em solid white');
-        });
+            $('#profile-niall').css('border', '.2em solid #f1f1f1');
+            $('#niall-pic').css('border', '.2em solid #f1f1f1');
+    });
 
     // When the user clicks on <span> (x), close the modal
     $('.close').click(function() {
