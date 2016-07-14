@@ -165,7 +165,7 @@ section#timeline article:nth-child(13) div.inner h2:after {
 	box-shadow: 0 0 0 3px #25303B;
 }
 
-.dropProfile {
+.dropProfile{
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -173,45 +173,25 @@ section#timeline article:nth-child(13) div.inner h2:after {
     cursor: pointer;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
+.dropContent {
     display: none;
     position: absolute;
     min-width: 110px;
+		// z-index: 1;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content h2 {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+// #dropContent h2 {
+//     color: black;
+//     padding: 12px 16px;
+//     text-decoration: none;
+//     display: block;
+// }
+
+// .dropContent:hover{
+//     display: block;
+// }
+
+.dropProfile:hover {
     display: block;
 }
-
-.dropdown-content h2:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropProfile {
-    background-color: #3e8e41;
-}
-
-// $( "p" )
-//   .on( "mouseenter", function() {
-//     $( this ).css({
-//       "display": "block",
-//       "font-weight": "bolder"
-//     });
-//   })
-  // .on( "mouseleave", function() {
-  //   var styles = {
-      // "display": "none",
-  //   };
-  //   $( this ).css( styles );
-  // });
