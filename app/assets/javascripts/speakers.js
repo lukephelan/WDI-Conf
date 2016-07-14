@@ -25,11 +25,11 @@ $(function(){
     }
 
     // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modalThomas.style.display = "none";
-        }
-    }
+    // window.onclick = function(event) {
+    //     if (event.target == modal) {
+    //         modalThomas.style.display = "none";
+    //     }
+    // }
 });
 $(function(){
 
