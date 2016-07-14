@@ -1,18 +1,20 @@
 .footer-distributed{
-	background-color: #292c2f;
+	background-color: black ; //#292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	// font: bold 16px 'Lato', sans-serif !important;
-	font-family: 'Lato', sans-serif !important;
+	font-family: bold 'Lato', sans-serif !important;
 
 	padding: 55px 50px;
 	// margin-top: 80px;
 }
 #logo {
+	width: 50px;
 	width: 10%;
-	margin-right: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	// margin-top: 5%;
 }
 .footer-distributed .footer-left,
 .footer-distributed .footer-center,
@@ -25,18 +27,23 @@
 
 .footer-distributed .footer-left{
 	width: 40%;
+	margin-top: 1%;
+	margin-bottom: 3%;
 }
 
 /* The company logo */
 
 .footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font-family: 'Monoton', cursive;
+	font: 36px 'Monoton', cursive; //'Lato', sans-serif ;
 	margin: 0;
 }
 
-.footer-distributed h3 span{
-	color:  #5383d3;
+.footer-distributed span{
+	margin-bottom: 5%;
+	color:  white;
+	// display: flex;
+	// align-items: stretch;
 }
 
 /* Footer links */
@@ -56,7 +63,7 @@
 
 .footer-distributed .footer-company-name{
 	color:  #8f9296;
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: normal;
 	margin: 0;
 }
@@ -64,7 +71,7 @@
 /* Footer Center */
 
 .footer-distributed .footer-center{
-	width: 35%;
+	width: 32%;
 }
 
 .footer-distributed .footer-center i{
@@ -76,7 +83,7 @@
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	// margin: 10px 15px;
+	margin: 10px 15px;
 	vertical-align: middle;
 }
 
@@ -122,9 +129,9 @@
 .footer-distributed .footer-company-about span{
 	display: block;
 	color:  #ffffff;
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: bold;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .footer-distributed .footer-icons{
@@ -171,5 +178,11 @@
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
-
+// .footer-company-name {
+// 	display: flex;
+// 	align-items: flex-end;
+// 	text-align: right;
+// 	vertical-align: bottom;
+// 	font-size: 11px;
+// }
 }

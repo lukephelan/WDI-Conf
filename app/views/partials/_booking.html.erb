@@ -1,7 +1,10 @@
 <div class="display-container">
-    <div id="seat-map">
-
+    <div id="speakers-wrapper">
+        <fieldset>
+            <legend>SEAT BOOKING</legend>
+        </fieldset>
     </div>
+    <div id="seat-map"></div>
     <div class="booking-details">
 		<p><%= @seatsarray.to_s %></p>
         <p>Seat: </p>
@@ -12,6 +15,35 @@
 	        <%= f.text_field :seats, :class => 'seats-input' %>
 	        <%= f.submit "Book Seats", :class => 'checkout-button' %>
 	    <% end %>
+        <div class="ticket-container">
+            <div class='ticks'>
+                <p>Tickets:</p>
+
+                <p id="counter"> <b>0</b></p>
+            </div>
+            <div class='ticks'>
+                <p>Total:</p>
+                <div class="ticks">
+                   <p>
+                     $
+                   </p>
+                </div>
+                <p id="total">
+                    <b>0</b>
+                </p>
+            </div>
+            <div class="ticks">
+
+            </div>
+            <div class="btn-book">
+              <button class="checkout-button">BOOK</button>
+            </div>
+            <div class="btn-reset">
+              <button class="reset-button">RESET</button>
+            </div>
+
+        </div>
+        <!-- <div id="legend"></div> -->
     </div>
     <button class='checkout-button'>Book</button>
     <div style="clear:both"></div>

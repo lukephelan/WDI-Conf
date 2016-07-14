@@ -1,5 +1,5 @@
 <div id="Profile">
-  <div id="sponsors-wrapper">
+  <div id="speakers-wrapper">
 <fieldset><legend>SPEAKERS</legend></fieldset>
   </div>
 
@@ -7,7 +7,7 @@
 
   <div class="grid-element">
     <%= image_tag("ephrem.jpg", :class => "profile-pic", :id => "ephrem-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-ephrem">
     <h2 class="profile-name">Ephrem Akele</h2>
     <span class="profile-title">Computer Scientist</span>
     </div>
@@ -24,12 +24,24 @@
       <a href="https://www.linkedin.com/in/ephremakele"><img src="http://svgporn.com/logos/linkedin.svg" class="linkedin-logo"></a></p>
       <p class="modal-link"><a href="https://github.com/eakele"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/ephremakele"><i class="fa fa-linkedin"></i></a></p>
+      <div class="modal-link">
+        <h4>SKILLS</h4>
+        <div class="skills">
+          <%= image_tag('sponsors/ember.svg', :class => "skill-pic" ) %>
+          <%= image_tag('sponsors/rails.svg', :class => "skill-pic" ) %>
+          <%= image_tag('skills/express.svg', :class => "skill-pic" ) %>
+        </div>
+      </div>
+      <div class="social-pic-icons">
+        <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="http://github.com"><i class="fa fa-github"></i></a>
+      </div>
     </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("stephen.jpg", :class => "profile-pic", :id => "stephen-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-stephen">
     <h2 class="profile-name">Stephen Koo</h2>
     <span class="profile-title">Online Product Manager</span>
     </div>
@@ -49,11 +61,24 @@
       <p><a href="https://github.com/stephenkoo"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/stephenkoo"><i class="fa fa-linkedin"></i></a></p>
     </div>
+        <div class="modal-link">
+          <h4>SKILLS</h4>
+          <div class="skills">
+            <%= image_tag('sponsors/rails.svg', :class => "skill-pic" ) %>
+            <%= image_tag('skills/gulp.svg', :class => "skill-pic" ) %>
+            <%= image_tag('sponsors/sass.svg', :class => "skill-pic" ) %>
+          </div>
+        </div>
+        <div class="social-pic-icons">
+          <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+          <a href="http://github.com"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("yogi.jpg", :class => "profile-pic", :id => "yogi-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-yogi">
     <h2 class="profile-name">Yogi</h2>
     <span class="profile-title">Web Developer</span>
     </div>
@@ -74,11 +99,24 @@
       <p><a href="https://github.com/Yogibeer2001"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/thomas-langnickel"><i class="fa fa-linkedin"></i></a></p>
     </div>
+        <div class="modal-link">
+          <h4>SKILLS</h4>
+          <div class="skills">
+            <%= image_tag('sponsors/ember.svg', :class => "skill-pic" ) %>
+            <%= image_tag('sponsors/rails.svg', :class => "skill-pic" ) %>
+            <%= image_tag('skills/express.svg', :class => "skill-pic" ) %>
+          </div>
+        </div>
+        <div class="social-pic-icons">
+          <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+          <a href="http://github.com"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("luke.jpg", :class => "profile-pic", :id => "luke-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-luke">
     <h2 class="profile-name">Luke Phelan</h2>
     <span class="profile-title">Software Engineer</span>
 
@@ -96,12 +134,24 @@
       <a href="https://au.linkedin.com/in/lukegphelan"><img src="http://svgporn.com/logos/linkedin.svg" class="linkedin-logo"></a></p>
       <p><a href="https://github.com/lukephelan"><i class="fa fa-github"></i></a>
       <a href="https://au.linkedin.com/in/lukegphelan"><i class="fa fa-linkedin"></i></a></p>
+      <div class="modal-link">
+        <h4>SKILLS</h4>
+        <div class="skills">
+          <%= image_tag('skills/python.svg', :class => "skill-pic" ) %>
+          <%= image_tag('sponsors/rails.svg', :class => "skill-pic" ) %>
+          <%= image_tag('skills/terminal.svg', :class => "skill-pic" ) %>
+        </div>
+      </div>
+      <div class="social-pic-icons">
+        <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="http://github.com"><i class="fa fa-github"></i></a>
+      </div>
     </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("brad.jpg", :class => "profile-pic", :id => "brad-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-brad">
     <h2 class="profile-name">Brad Wynter</h2>
     <span class="profile-title">Innovation Manager</span>
     </div>
@@ -122,11 +172,24 @@
       <p><a href="https://github.com/brawyn77"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/brad-wynter-89b105"><i class="fa fa-linkedin"></i></a></p>
     </div>
+        <div class="modal-link">
+          <h4>SKILLS</h4>
+          <div class="skills">
+            <%= image_tag('skills/trello.svg', :class => "skill-pic" ) %>
+            <%= image_tag('sponsors/rails.svg', :class => "skill-pic" ) %>
+            <%= image_tag('sponsors/html-5.svg', :class => "skill-pic" ) %>
+          </div>
+        </div>
+        <div class="social-pic-icons">
+          <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+          <a href="http://github.com"><i class="fa fa-github"></i></a>
+        </div>
+      </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("yang.jpg", :class => "profile-pic", :id => "yang-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-yang">
     <h2 class="profile-name">Yang Li</h2>
     <span class="profile-title">Teaching Assistant</span>
     </div>
@@ -144,14 +207,27 @@
          markup.</p>
       <p><a href="https://github.com/aussieyang"><img src="http://svgporn.com/logos/github-icon.svg" class="github-logo"></a>
       <a href="https://www.linkedin.com/in/fullstackyang"><img src="http://svgporn.com/logos/linkedin.svg" class="linkedin-logo"></a></p>
-      <p><a href="https://github.com/aussieyang"><i class="fa fa-github"></i></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+      <p><a href="https://github.com/aussieyang"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/fullstackyang"><i class="fa fa-linkedin"></i></a></p>
     </div>
+         <div class="modal-link">
+           <h4>SKILLS</h4>
+           <div class="skills">
+             <%= image_tag('skills/terminal.svg', :class => "skill-pic" ) %>
+             <%= image_tag('sponsors/codecademy.svg', :class => "skill-pic" ) %>
+             <%= image_tag('sponsors/atom.svg', :class => "skill-pic" ) %>
+           </div>
+         </div>
+         <div class="social-pic-icons">
+           <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+           <a href="http://github.com"><i class="fa fa-github"></i></a>
+         </div>
+       </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("mark.jpg", :class => "profile-pic", :id => "mark-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-mark">
     <h2 class="profile-name">Mark Cronje</h2>
     <span class="profile-title">Technology Consultant</span>
     </div>
@@ -168,12 +244,24 @@
       <a href="https://www.linkedin.com/in/markcronje"><img src="http://svgporn.com/logos/linkedin.svg" class="linkedin-logo"></a></p>
       <p><a href="https://github.com/markcronje"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/markcronje"><i class="fa fa-linkedin"></i></a></p>
+      <div class="modal-link">
+        <h4>SKILLS</h4>
+        <div class="skills">
+          <%= image_tag('skills/giphy-large.svg', :class => "skill-pic" ) %>
+          <%= image_tag('skills/terminal.svg', :class => "skill-pic" ) %>
+          <%= image_tag('skills/logo-pornhub.png', :class => "skill-pic" ) %>
+        </div>
+      </div>
+      <div class="social-pic-icons">
+        <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="http://github.com"><i class="fa fa-github"></i></a>
+      </div>
     </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("thomas.jpg", :class => "profile-pic", :id => "thomas-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-thomas">
     <h2 class="profile-name">Thomas Kanze</h2>
     <!-- <span class="profile-title">Web Developer</span> -->
     <span class="profile-title">World Traveller</span>
@@ -190,12 +278,24 @@
       <a href="https://www.linkedin.com/in/thomaskanze"><img src="http://svgporn.com/logos/linkedin.svg" class="linkedin-logo"></a></p>
       <p><a href="https://github.com/apwn"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/thomaskanze"><i class="fa fa-linkedin"></i></a></p>
+      <div class="modal-link">
+        <h4>SKILLS</h4>
+        <div class="skills">
+          <%= image_tag('sponsors/ember.svg', :class => "skill-pic" ) %>
+          <%= image_tag('sponsors/rails.svg', :class => "skill-pic" ) %>
+          <%= image_tag('skills/express.svg', :class => "skill-pic" ) %>
+        </div>
+      </div>
+      <div class="social-pic-icons">
+        <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="http://github.com"><i class="fa fa-github"></i></a>
+      </div>
     </div>
   </div>
 
   <div class="grid-element">
     <%= image_tag("niall.jpg", :class => "profile-pic", :id => "niall-pic") %>
-    <div class="profile-text">
+    <div class="profile-text" id="profile-niall">
     <h2 class="profile-name">Niall O'Callaghan</h2>
     <span class="profile-title">Software Developer</span>
     </div>
@@ -211,6 +311,19 @@
       <a href="https://www.linkedin.com/in/niall-o-callaghan-webdev"><img src="http://svgporn.com/logos/linkedin.svg" class="linkedin-logo"></a></p>
       <p><a href="https://github.com/noccer2016"><i class="fa fa-github"></i></a>
       <a href="https://www.linkedin.com/in/niall-o-callaghan-webdev"><i class="fa fa-linkedin"></i></a></p>
+      his own product, ViewPro.</p>
+      <div class="modal-link">
+        <h4>SKILLS</h4>
+        <div class="skills">
+          <%= image_tag('sponsors/angular-icon.svg', :class => "skill-pic" ) %>
+          <%= image_tag('sponsors/nodejs.svg', :class => "skill-pic" ) %>
+          <%= image_tag('skills/trello.svg', :class => "skill-pic" ) %>
+        </div>
+      </div>
+      <div class="social-pic-icons">
+        <a href="http://linkedin.com"><i class="fa fa-linkedin"></i></a>
+        <a href="http://github.com"><i class="fa fa-github"></i></a>
+      </div>
     </div>
   </div>
 
