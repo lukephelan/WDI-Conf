@@ -20,25 +20,40 @@
     display: -webkit-flex;
     display: flex;
     width: 95%;
-    height: 300px;
+    height: 350px;
     margin-left: 5px;
 }
 
 #description{
-	width: 50%;
-	margin-left: 50px;
+	width: 60%;
+	margin-left: 10px;
+	margin-top: 5%;
+	margin-right: 7%;
+	// border: 2px solid black;
+	font-size: 20px;
+	background-color: #dddddd;
+	border-radius: 27px;
+	border: 2px solid #bbbbbb;
+	box-shadow: 10px 10px 5px -3px rgba(187,187,187,1);
+}
+#description p {
+	margin: 7%;
 }
 
 #where{
+	margin: 5%;
+	font-size: 16px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 25%;
 	height: 100%;
-	border: 2px solid black;
-	border-radius: 6px;
+	background-color: #dddddd;
+	border: 2px solid #bbbbbb;
+	border-radius: 27px;
+  box-shadow: 10px 10px 5px -3px rgba(187,187,187,1);
 }
 
 #where * {
-	margin: 7px;
+	margin: 5% 3% 3% 10%;
 }
