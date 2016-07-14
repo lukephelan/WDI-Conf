@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .front {
     width: 300px;
-    margin: 5px 32px 45px 32px;
+    margin: 5px 32px 45px;
     background-color: #f0f0f0;
     color: #666;
     text-align: center;
@@ -23,7 +23,7 @@
 .booking-details p {
     line-height: 36px;
     font-size: 16px;
-    color: #999
+    color: #999;
 }
 .booking-details p span {
     float: left;
@@ -31,7 +31,7 @@
     position: relative;
 }
 div.seatCharts-cell {
-    color: #75a8d2;
+    color: #000000;
     height: 45px;
     width: 60px;
     line-height: 35px;
@@ -60,7 +60,6 @@ div.seatCharts-seat.focused {
     background-color: #ba68c8;
     border: none;
 }
-
 div.seatCharts-seat.selected {
     background-color: #ff4081;
 }
@@ -74,12 +73,12 @@ div.seatCharts-container {
     float: left;
 }
 div.seatCharts-legend {
-    padding-left: 0px;
+    padding-left: 0;
     position: relative;
     height: 10%;
 }
 ul.seatCharts-legendList {
-    padding-left: 0px;
+    padding-left: 0;
 }
 .seatCharts-legendItem {
     float: left;
@@ -91,7 +90,7 @@ span.seatCharts-legendDescription {
     margin-left: 5px;
     line-height: 30px;
 }
-//booking selected seat sbutton
+//booking selected seats button
 .checkout-button {
     display: block;
     width: 100px;
@@ -107,23 +106,21 @@ span.seatCharts-legendDescription {
     margin: 6px;
     font-size: 14px;
     font-weight: bold;
-    text-align: center
-  }
-  #seat-map {
-    top: 6%;
+    text-align: center;
+}
+#seat-map {
+    padding-top: 60px;
+    padding-left: 0;
     position: relative;
     width: auto;
     margin: 0;
-    padding: 0;
-  }
-
+}
 #selected-seats {
     max-height: 150px;
     overflow-y: auto;
     overflow-x: none;
     width: 200px;
 }
-
 #selected-seats li {
     float: right;
     width: 72px;
@@ -134,21 +131,18 @@ span.seatCharts-legendDescription {
     margin: 6px;
     font-size: 14px;
     font-weight: bold;
-    text-align: center
+    text-align: center;
 }
 .display-container {
-  margin: auto;
-  background-color: black;
-  // background-image: url('seat.jpg');
-	height: 100%;
+    margin: auto;
+    background-color: black;
+    // background-image: url('seat.jpg');
+    height: 100%;
 }
-#counter, #total{
-  color: rgb(250, 187, 0);
-
+#counter,#total {
+    color: rgb(250, 187, 0);
 }
-.booking-details{
-  display: block;
-  position: relative;
-  float: left;
-  left: 20%;
+.booking-details {
+    padding-top: 60px;
+    float: left;  
 }
