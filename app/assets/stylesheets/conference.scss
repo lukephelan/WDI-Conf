@@ -7,11 +7,6 @@
 	height: 100%;
 }
 
-#Elem2 {
-	margin-left: 100px;
-	text-color: black;
-}
-
 #map{
 	-webkit-filter: grayscale(80%);
   -moz-filter: grayscale(80%);
@@ -24,17 +19,26 @@
 #group{
     display: -webkit-flex;
     display: flex;
-    width: 90%;
+    width: 95%;
     height: 300px;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 #description{
-	width: 30%;
-	margin: 50px;
+	width: 50%;
+	margin-left: 50px;
 }
 
 #where{
-	margin: 20px;
-	width: 30%
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 25%;
+	height: 100%;
+	border: 2px solid black;
+	border-radius: 6px;
+}
+
+#where * {
+	margin: 7px;
 }

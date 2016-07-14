@@ -171,8 +171,14 @@ $(function(){
     $('.splash-animation').append($('<div>').addClass('logo'));
     $('.logo').append($('<span>').addClass('animated-text'));
     $(".animated-text").typed({
-        strings: ["WDI Conf 2017"],
-        typeSpeed: 30
+        strings: [" WDI Conf 2017  "],
+        typeSpeed: 35,
+        // loop: true,
+        callback: function() {
+          showCursor: false
+        }
+        // loopCount: 5
+        // cursorChar: ";"
       });
       $('.splash-animation').append($('<div>').addClass('call-to-action'));
       $('.call-to-action').append($('<a>').addClass('discover-button'));
@@ -189,6 +195,10 @@ $(function(){
 
          goToByScroll(".conference");
       });
+
+
+            $(".typed-cursor").fadeOut(7000);
+
 
 
 
