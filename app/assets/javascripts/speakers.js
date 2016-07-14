@@ -8,15 +8,11 @@ $(function(){
     $('#thomas-pic, #profile-thomas').hover(
         function() {
             $('#profile-thomas').css('border', '.2em solid black');
-            // $('#profile-thomas').css('background', '#546e7a');
             $('#thomas-pic').css('border', '.2em solid black');
-            // $('#profile-thomas').css('color', 'white');
         },
         function() {
             $('#profile-thomas').css('border', '.2em solid #f1f1f1');
-            // $('#profile-thomas').css('background', 'white');
             $('#thomas-pic').css('border', '.2em solid #f1f1f1');
-            // $('#profile-thomas').css('color', 'black');
     });
 
     $('#luke-pic, #profile-luke').click(function() {
