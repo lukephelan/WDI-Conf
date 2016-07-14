@@ -70,11 +70,15 @@ color: #fff;
 
 .typed-cursor{
     color: white;
+    font-family: sans-serif;
+    font-size: 85px;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+    animation: blink 1.2s infinite;
 }
+
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }

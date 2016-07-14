@@ -1,73 +1,130 @@
-
-$(function(){
-
-    // Get the Thomas modal
-    var modalThomas = document.getElementById('modal-thomas');
-    // Get the Luke modal
-    // var modal = document.getElementById('myModal');
-
-    // Get the image that opens the modal
-    // var imageThomas = document.getElementById('thomas-pic');
-
-    // Get the <span> element that closes the modal
-    var spanThomas = document.getElementsByClassName('close')[0];
-
-    // When the user clicks the button, open the modal
-    $('#thomas-pic').click(function() {
-        // Jquery to show and hide stuff
-        console.log("Hello");
-        modalThomas.style.display = "block";
-    });
-
-    // // When the user clicks on <span> (x), close the modal
-    spanThomas.onclick = function() {
-        modalThomas.style.display = "none";
-    }
-
-    // When the user clicks anywhere outside of the modal, close it
-    // window.onclick = function(event) {
-    //     if (event.target == modal) {
-    //         modalThomas.style.display = "none";
-    //     }
-    // }
-});
 $(function(){
 
     // When user clicks on a speaker photo, display the modal
-    $('#thomas-pic').click(function() {
+    $('#thomas-pic, #profile-thomas').click(function() {
         $('#modal-thomas').css("display", "block");
     });
 
-    $('#luke-pic').click(function() {
+    $('#thomas-pic, #profile-thomas').hover(
+        function() {
+            $('#profile-thomas').css('border', '.2em solid black');
+            $('#thomas-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-thomas').css('border', '.2em solid white');
+            $('#thomas-pic').css('border', '.2em solid white');
+    });
+
+    $('#luke-pic, #profile-luke').click(function() {
         $('#modal-luke').css("display", "block");
     });
 
-    $('#yogi-pic').click(function() {
+    $('#luke-pic, #profile-luke').hover(
+        function() {
+            $('#profile-luke').css('border', '.2em solid black');
+            $('#luke-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-luke').css('border', '.2em solid white');
+            $('#luke-pic').css('border', '.2em solid white');
+    });
+
+    $('#yogi-pic, #profile-yogi').click(function() {
         $('#modal-yogi').css("display", "block");
     });
 
-    $('#stephen-pic').click(function() {
+    $('#yogi-pic, #profile-yogi').hover(
+        function() {
+            $('#profile-yogi').css('border', '.2em solid black');
+            $('#yogi-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-yogi').css('border', '.2em solid white');
+            $('#yogi-pic').css('border', '.2em solid white');
+    });
+
+    $('#stephen-pic, #profile-stephen').click(function() {
         $('#modal-stephen').css("display", "block");
     });
 
-    $('#ephrem-pic').click(function() {
+    $('#stephen-pic, #profile-stephen').hover(
+        function() {
+            $('#profile-stephen').css('border', '.2em solid black');
+            $('#stephen-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-stephen').css('border', '.2em solid white');
+            $('#stephen-pic').css('border', '.2em solid white');
+    });
+
+    $('#ephrem-pic, #profile-ephrem').click(function() {
         $('#modal-ephrem').css("display", "block");
     });
 
-    $('#mark-pic').click(function() {
+    $('#ephrem-pic, #profile-ephrem').hover(
+        function() {
+            $('#profile-ephrem').css('border', '.2em solid black');
+            $('#ephrem-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-ephrem').css('border', '.2em solid white');
+            $('#ephrem-pic').css('border', '.2em solid white');
+    });
+
+    $('#mark-pic, #profile-mark').click(function() {
         $('#modal-mark').css("display", "block");
     });
 
-    $('#brad-pic').click(function() {
+    $('#mark-pic, #profile-mark').hover(
+        function() {
+            $('#profile-mark').css('border', '.2em solid black');
+            $('#mark-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-mark').css('border', '.2em solid white');
+            $('#mark-pic').css('border', '.2em solid white');
+    });
+
+    $('#brad-pic, #profile-brad').click(function() {
         $('#modal-brad').css("display", "block");
     });
 
-    $('#yang-pic').click(function() {
+    $('#brad-pic, #profile-brad').hover(
+        function() {
+            $('#profile-brad').css('border', '.2em solid black');
+            $('#brad-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-brad').css('border', '.2em solid white');
+            $('#brad-pic').css('border', '.2em solid white');
+    });
+
+    $('#yang-pic, #profile-yang').click(function() {
         $('#modal-yang').css("display", "block");
     });
 
-    $('#niall-pic').click(function() {
+    $('#yang-pic, #profile-yang').hover(
+        function() {
+            $('#profile-yang').css('border', '.2em solid black');
+            $('#yang-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-yang').css('border', '.2em solid white');
+            $('#yang-pic').css('border', '.2em solid white');
+    });
+
+    $('#niall-pic, #profile-niall').click(function() {
         $('#modal-niall').css("display", "block");
+    });
+
+    $('#niall-pic, #profile-niall').hover(
+        function() {
+            $('#profile-niall').css('border', '.2em solid black');
+            $('#niall-pic').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-niall').css('border', '.2em solid white');
+            $('#niall-pic').css('border', '.2em solid white');
     });
 
     // When the user clicks on <span> (x), close the modal
