@@ -1,11 +1,11 @@
 class SeatingsController < ApplicationController
 
 	# def index
-	# 	@seats = Seating.all
-	# 	render json: @seats.to_json
+	# # 	render json: @seats.to_json
+	# 	redirect_to root
 	# end
 
-	Find the right controller (which points to indx page), grab all seats columns from seating tabel, join all into big array, iterate through to grab each seat id, parse that into jQuery for what those are.
+	# Find the right controller (which points to indx page), grab all seats columns from seating tabel, join all into big array, iterate through to grab each seat id, parse that into jQuery for what those are.
 @user = User.alll
 	def create
 		seat = Seating.new
