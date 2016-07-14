@@ -156,7 +156,6 @@ button:focus {
 #counter,#total {
     color: rgb(250, 187, 0);
 }
-
 .ticket-container {
     display: flex;
     flex-direction: row;
@@ -177,4 +176,8 @@ button:focus {
 p {
     font-size: 16px;
     font-weight: bold;
+
+.booking-details {
+    padding-top: 60px;
+    float: left;
 }
