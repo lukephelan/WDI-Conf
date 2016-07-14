@@ -1,15 +1,39 @@
 <div class="display-container">
-    <div id="seat-map">
-
+    <div id="speakers-wrapper">
+        <fieldset>
+            <legend>SEAT BOOKING</legend>
+        </fieldset>
     </div>
+    <div id="seat-map"></div>
     <div class="booking-details">
-        <p>Seat: </p>
-        <ul id="selected-seats"></ul>
-        <p> Tickets: <span id="counter">0</span></p>
-        <p> Total: <b>$<span id="total">0</span></b></p>
+        <div class="ticket-container">
+            <div class='ticks'>
+                <p>Tickets:</p>
 
-        <button class="checkout-button">BOOK</button>
+                <p id="counter"> <b>0</b></p>
+            </div>
+            <div class='ticks'>
+                <p>Total:</p>
+                <div class="ticks">
+                   <p>
+                     $
+                   </p>
+                </div>
+                <p id="total">
+                    <b>0</b>
+                </p>
+            </div>
+            <div class="ticks">
 
+            </div>
+            <div class="btn-book">
+              <button class="checkout-button">BOOK</button>
+            </div>
+            <div class="btn-reset">
+              <button class="reset-button">RESET</button>
+            </div>
+
+        </div>
         <!-- <div id="legend"></div> -->
     </div>
     <div style="clear:both"></div>

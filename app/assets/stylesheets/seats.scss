@@ -10,12 +10,6 @@
     padding: 3px;
     border-radius: 5px;
 }
-.booking-details {
-    float: right;
-    position: relative;
-    width: 200px;
-    height: 450px;
-}
 .booking-details h3 {
     margin: 5px 5px 0 0;
     font-size: 16px;
@@ -92,28 +86,27 @@ span.seatCharts-legendDescription {
 }
 //booking selected seats button
 .checkout-button {
-    display: block;
     width: 100px;
     height: 34px;
-    line-height: 20px;
-    margin: 10px auto;
-    border: 1px solid #999;
-    font-size: 14px;
-    cursor: pointer;
     border-radius: 12px;
-    border: 1px solid #000000;
-    background: #ec5907;
-    margin: 6px;
+    margin: 14px;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
+    border: none;
 }
-#seat-map {
-    padding-top: 60px;
-    padding-left: 0;
-    position: relative;
-    width: auto;
-    margin: 0;
+.reset-button {
+    width: 100px;
+    height: 34px;
+    border-radius: 12px;
+    margin: 14px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+button:focus {
+    outline: 0;
 }
 #selected-seats {
     max-height: 150px;
@@ -133,16 +126,55 @@ span.seatCharts-legendDescription {
     font-weight: bold;
     text-align: center;
 }
+// ----------------------------------------
 .display-container {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     background-color: black;
     // background-image: url('seat.jpg');
     height: 100%;
 }
+#seat-map {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 0;
+    position: relative;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+.booking-details {
+    margin: auto;
+    padding-right: 300px;
+    padding-top: 30px;
+    position: relative;
+    width: 100px;
+    color: rgb(126, 129, 133);
+}
+// --------------------------------
 #counter,#total {
     color: rgb(250, 187, 0);
 }
-.booking-details {
-    padding-top: 60px;
-    float: left;  
+
+.ticket-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    // background-image: url('seat.jpg');
+    width: 100%;
+
+}
+.ticks {
+    padding-left: 20%;
+    width: 60px;
+    display: flex;
+}
+.btn-book {
+    padding-left: 20%;
+    position: relative;
+}
+p {
+    font-size: 16px;
+    font-weight: bold;
 }
