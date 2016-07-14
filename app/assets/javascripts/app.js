@@ -75,7 +75,7 @@ $(document).ready(function() {
     $('.checkout-button').on('click', function() {
         // for (var i = 0; i < seatstaken.length; i++) {
         //     sc.get(seatstaken[i]).status('unavailable');
-            console.log(seatstaken);
+        console.log(seatstaken);
         //     $('.seats-input').val(seatstaken[i]);
         // }
         $('.seats-input').val(seatstaken);

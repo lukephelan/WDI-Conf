@@ -7,7 +7,7 @@ class SeatingsController < ApplicationController
 
 	def create
 		seat = Seating.new
-		# seat.seating = params[:seats]
+		seat.seating = params[:seats].split(',')
 		seat.save
 	end
 
