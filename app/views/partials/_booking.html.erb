@@ -6,6 +6,15 @@
     </div>
     <div id="seat-map"></div>
     <div class="booking-details">
+		<p><%= @seatsarray.to_s %></p>
+        <p>Seat: </p>
+        <ul id="selected-seats"></ul>
+        <p> Tickets: <span id="counter">0</span></p>
+        <p> Total: <b>$<span id="total">0</span></b></p>
+        <%= form_for :post, url: '/seatings' do |f| %>
+	        <%= f.text_field :seats, :class => 'seats-input' %>
+	        <%= f.submit "Book Seats", :class => 'checkout-button' %>
+	    <% end %>
         <div class="ticket-container">
             <div class='ticks'>
                 <p>Tickets:</p>
@@ -36,6 +45,7 @@
         </div>
         <!-- <div id="legend"></div> -->
     </div>
+    <button class='checkout-button'>Book</button>
     <div style="clear:both"></div>
 </div>
 <div id="bookingEnd"></div>
