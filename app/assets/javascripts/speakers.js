@@ -13,6 +13,14 @@ $(function(){
             $('#profile-thomas').css('border', '.2em solid white');
         });
 
+    $('#thomas-pic').hover(
+        function() {
+$('#profile-thomas').css('border', '.2em solid black');
+        },
+        function() {
+            $('#profile-thomas').css('border', '.2em solid white');
+        });
+
     $('#luke-pic').click(function() {
         $('#modal-luke').css("display", "block");
     });
