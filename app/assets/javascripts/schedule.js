@@ -2,7 +2,7 @@ $(function() {
 
     // When user hovers over the timetable session, display the modal
 		$('.dropProfile1').hover(function() {
-        $('.dropContent1').show()
+        $('.dropContent1').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile1').mouseleave(function() {
@@ -11,7 +11,7 @@ $(function() {
 
 
     $('.dropProfile2').hover(function() {
-        $('.dropContent2').show()
+        $('.dropContent2').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile2').mouseleave(function() {
@@ -19,7 +19,7 @@ $(function() {
     });
 
     $('.dropProfile3').hover(function() {
-        $('.dropContent3').show()
+        $('.dropContent3').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile3').mouseleave(function() {
@@ -27,7 +27,7 @@ $(function() {
     });
 
     $('.dropProfile4').hover(function() {
-        $('.dropContent4').show()
+        $('.dropContent4').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile4').mouseleave(function() {
@@ -35,7 +35,7 @@ $(function() {
     });
 
     $('.dropProfile5').hover(function() {
-        $('.dropContent5').show()
+        $('.dropContent5').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile5').mouseleave(function() {
@@ -43,7 +43,7 @@ $(function() {
     });
 
     $('.dropProfile6').hover(function() {
-        $('.dropContent6').show()
+        $('.dropContent6').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile6').mouseleave(function() {
@@ -51,7 +51,7 @@ $(function() {
     });
 
     $('.dropProfile7').hover(function() {
-        $('.dropContent7').show()
+        $('.dropContent7').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile7').mouseleave(function() {
@@ -59,7 +59,7 @@ $(function() {
     });
 
     $('.dropProfile8').hover(function() {
-        $('.dropContent8').show()
+        $('.dropContent8').fadeIn("slow")
             .css("width", "338px");
     });
     $('.dropProfile8').mouseleave(function() {
@@ -67,7 +67,7 @@ $(function() {
     });
 
     $('.dropProfile9').hover(function() {
-        $('.dropContent9').show()
+        $('.dropContent9').fadeIn("slow")
             .css("width", "368px");
     });
     $('.dropProfile9').mouseleave(function() {
@@ -75,7 +75,7 @@ $(function() {
     });
 
     $('.dropProfile10').hover(function() {
-        $('.dropContent10').show()
+        $('.dropContent10').fadeIn("slow")
             .css("width", "368px");
     });
     $('.dropProfile10').mouseleave(function() {
@@ -83,7 +83,7 @@ $(function() {
     });
 
     $('.dropProfile11').hover(function() {
-        $('.dropContent11').show()
+        $('.dropContent11').fadeIn("slow")
             .css("width", "368px");
     });
     $('.dropProfile11').mouseleave(function() {
@@ -91,7 +91,7 @@ $(function() {
     });
 
     $('.dropProfile12').hover(function() {
-        $('.dropContent12').show()
+        $('.dropContent12').fadeIn("slow")
             .css("width", "368px");
     });
     $('.dropProfile12').mouseleave(function() {
@@ -99,7 +99,7 @@ $(function() {
     });
 
     $('.dropProfile13').hover(function() {
-        $('.dropContent13').show()
+        $('.dropContent13').fadeIn("slow")
             .css("width", "368px");
     });
     $('.dropProfile13').mouseleave(function() {
