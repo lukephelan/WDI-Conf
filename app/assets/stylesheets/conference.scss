@@ -1,6 +1,42 @@
-#h3 {
-	color: black;
+#where h2 {
+	width: 100%;
+	background: blue;
+	margin: 0;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
 }
+#where #h2 p{
+	// padding: 16px;
+	margin-left: 5%;
+	color: white;
+	text-align: center;
+}
+
+#description h2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	// background: blue;
+	border-radius: 10px 10px 0 0;
+	height: 40px;
+	margin: 0;
+	text-align: center;
+	// color: white;
+	font-size: 16px;
+
+
+}
+#description #h2 p{
+	text-align: center;
+	// color: white;
+	// padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	margin: 0;
+}
+
 
 .conference {
 	margin: 5px;
@@ -30,32 +66,62 @@
 	margin-top: 5%;
 	margin-right: 7%;
 	// border: 2px solid black;
-	background-color: #dddddd;
-	border-radius: 27px;
-	border: 2px solid #bbbbbb;
-	box-shadow: 10px 10px 5px -3px rgba(187,187,187,1);
+	// background-color: #dddddd;
+	border-radius: 10px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 4%;
+	// box-shadow: 5px 5px 3px -3px rgba(187,187,187,1);
+
+	// border: 2px solid #bbbbbb;
+	// box-shadow: 10px 10px 5px -3px rgba(187,187,187,1);
 }
 #description p {
-	margin: 5% 3% 4% 5%;
-	font-size: 20px;
-	line-height: 1.6;
+	margin: 5% 3% 3% 5%;
+	font-size: 16px;
+	line-height: 2;
+
 
 }
 
 #where{
-	margin: 5%;
-	font-size: 16px;
+	margin: 4%;
+	// font-size: 14px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
-	width: 25%;
 	height: 100%;
+	width: 25%;
 	background-color: #dddddd;
-	border: 2px solid #bbbbbb;
-	border-radius: 27px;
-  box-shadow: 10px 10px 5px -3px rgba(187,187,187,1);
+	// border: 2px solid #bbbbbb;
+	border-radius: 10px;
+  box-shadow: 5px 5px 3px -3px rgba(187,187,187,1);
+}
+#where #add p {
+	font-size: 0.8em;
+	font-style: italic;
+
+}
+#where #trans p {
+	font-size: 0.8em;
+	font-style: italic;
+
+}
+#where #add #h3 {
+	font-size: 1.2em;
+	font-weight: 900;
+}
+#where #trans #h3 {
+	font-size: 1.2em;
+	font-weight: 900;
+
 }
 
+//
 #where * {
-	margin: 5% 3% 2% 10%;
+	margin: 5% 3% 2% 4%;
+	// margin-left: 5%;
 }

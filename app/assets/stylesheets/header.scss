@@ -5,8 +5,6 @@ nav {
   right: 10px;
   z-index: 2;
   max-width: 100px;
-  // height: 100%;
-  // background: #C3C3C3;
   opacity: 0.8;
   margin-right: -30%;
   margin-top: 5%;
@@ -21,8 +19,6 @@ nav {
 
 
 .links {
-  // background: url('sos.png');
-
   width: 100%;
   display: block;
   text-align:right;
@@ -31,10 +27,10 @@ nav {
   margin: 15% 5% 5% 5%;
   font-size: 1.2em;
   text-shadow:
-        3px 3px 0 #bbbbbb,
-      -1px -1px 0 #bbbbbb,
-       1px -1px 0 #bbbbbb,
-       -1px 1px 0 #bbbbbb,
+        1px 1px 0 #bbbbbb,
+      0px 0px 0 #bbbbbb,
+       1px 1px 0 #bbbbbb,
+       0px 0px 0 #bbbbbb,
         1px 1px 0 #bbbbbb;
   text-decoration: none !important;
   opacity: 0.9;
@@ -72,10 +68,6 @@ nav {
   text-decoration: none !important;
   opacity: 0.7;
 }
-// .nav-container li {
-//   border-style: 1px solid blue;
-// }
-
 a.links {
   width: 80%;
   margin: 5%;
@@ -87,20 +79,3 @@ nav, a{
   -webkit-transition: all 1s; /* Safari and Chrome */
   -o-transition: all 1s; /* Opera */
 }
-// a:before
-// {
-//     position: absolute;
-//     width: 100%;
-//     height: 2px;
-//     left: 0px;
-//     top: 0px;
-//     content: '';
-//     background: #FFF;
-//     opacity: 0.3;
-//     transition: all 0.3s;
-// }
-//
-// a:hover:before
-// {
-//     height: 100%;
-// }

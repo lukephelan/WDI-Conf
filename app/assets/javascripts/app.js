@@ -1,7 +1,7 @@
  var price = 145; //price
  $(document).ready(function() {
      var $cart = $('#selected-seats'), //Sitting Area
-         $counter = $('#counter'), //Votes
+         $counter = $('#counter'), //counter
          $total = $('#total'); //Total money
      var seatstaken = [];
      var seatsSelected = [];
@@ -18,7 +18,7 @@
          ],
          naming: {
              top: false,
-             getLabel: function(character, row, column) {
+             getLabel: function(row, column) {
                  return column;
              }
          },
@@ -72,7 +72,9 @@
      });
      $('.reset-button').on('click', function() {
          sc.find('selected').each(function() {
-             this.status('available');
+            $total.text(0);
+            $counter.text(sc.find('selected').length - 1);
+            this.status('available');
          });
      });
  });
