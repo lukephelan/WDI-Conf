@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20160714070245) do
   create_table "seatings", force: :cascade do |t|
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
-    t.text     "seating", default: [], array: true
+    t.text     "seating",    default: [],              array: true
   end
 
   create_table "speakers", force: :cascade do |t|
