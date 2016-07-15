@@ -25,7 +25,7 @@ $('a[href*="#"]:not([href="#"])').click(function () {
 
 
             if (heightTop < splashbottom) {$('.navbar').css('margin-right', '-30%')}
-            else {$('.navbar').css('margin-right', '-1.5%')};
+            else {$('.navbar').css('margin-right', '0%')};
 
             if (heightTop > profileDiv && heightTop < bookingEnd || heightTop > footerStart){$("#top").css('color', 'white')}
             else {$("#top").css('color', '#282CC1')}
