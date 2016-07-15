@@ -1,32 +1,40 @@
 #timetable {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
+//Sets the timeline canvas
 section#timeline {
 	width: 80%;
 	margin: 10px auto;
 	position: relative;
 }
+// Manages the vertical line
 section#timeline:before {
 	content: '';
 	display: block;
 	position: absolute;
-	left: 52%;
+	left: 50.7%;
 	top: 0;
 	margin: 0;
 	width: 10px;
 	height: 100%;
 	background: rgba(0,0,0,0.5);
 }
+
+// Set up canvas for each session article
 section#timeline article {
 	width: 100%;
 	margin: 0 0 20px;
 	position: relative;
 }
+
 section#timeline article:after {
 	content: '';
 	display: block;
 	clear: both;
 }
+
+//Set up article parameters
 section#timeline article div.inner {
 	width: 368px;
 	float: left;
@@ -40,6 +48,7 @@ section#timeline article div.inner span.timing {
 	left: 50%;
 	margin: 0 0 0 -21px;
 }
+// Article formats
 section#timeline article div.inner h2 {
 	padding: 15px;
 	margin: 0;
@@ -50,6 +59,8 @@ section#timeline article div.inner h2 {
 	border-radius: 6px 6px 0 0;
 	position: relative;
 }
+
+// session box pointer
 section#timeline article div.inner h2:after {
 	content: '';
 	position: absolute;
@@ -59,6 +70,8 @@ section#timeline article div.inner h2:after {
 	height: 10px;
 	-webkit-transform: rotate(-45deg);
 }
+
+// Format of the drop down content
 section#timeline article div.inner p {
 	padding: 15px;
 	margin: 0;
@@ -67,6 +80,8 @@ section#timeline article div.inner p {
 	color: #656565;
 	border-radius: 0 0 6px 6px;
 }
+
+// Banner colors for the 13 sessions
 section#timeline article:nth-child(2n+2) div.inner {
 	float: right;
 }
@@ -151,21 +166,103 @@ section#timeline article:nth-child(13) div.inner h2 {
 section#timeline article:nth-child(13) div.inner h2:after {
 	background: #512da8;
 }
+
+//thumbnail images formating
 #tmb {
 	border-radius: 50%;
 	height: 65px;
 	width: 60px;
-	border: 5px solid #000000;
+	border: 2px solid #696969;
 }
 
+//Format of dropdown session information for each sesssion 1 - 13
 .dropContent1 {
 	display: none;
 	position: absolute;
-	// min-width: 110px;
-	margin-left: 50px;
+	margin-left: 0px;
 	margin-bottom: 20px;
-	// box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-// .dropProfile1:hover {
-//     display: block;
-// }
+
+.dropContent2 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent3 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent4 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent5 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent6 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent7 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent8 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent9 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent10 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent11 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent12 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+
+.dropContent13 {
+	display: none;
+	position: absolute;
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
