@@ -13,7 +13,8 @@ $(function(){
   });
 
   $('.input-container-payment button').click(function(){
-    window.location = "https://www.paypal.com/cgi-bin/webscr?&cmd=_xclick&business=thomaskanze@gmail.com&currency_code=AUD&amount=1000000&item_name=WDI Conf 2017";
+    var selectedSeats = $('.selected-seats').val();
+    // window.location = "https://www.paypal.com/cgi-bin/webscr?&cmd=_xclick&business=thomaskanze@gmail.com&currency_code=AUD&amount=1000000&item_name=WDI Conf 2017";
   });
 
 });

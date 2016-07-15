@@ -69,6 +69,7 @@
          }
          seatsSelected = $.unique(seatsSelected);
          console.log(seatsSelected);
+         $('.selected-seats').val(seatsSelected);
      });
      $('.reset-button').on('click', function() {
          sc.find('selected').each(function() {
