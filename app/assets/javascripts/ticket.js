@@ -95,14 +95,14 @@
 // 		};
 // 	});
 
-// 	$('.checkout-button').on('click', function(){
-// 		// $.post("/seatings", { seating: seatstaken});
-// 		$('.seats-input').val(seatstaken);
-// 		console.log(seatstaken);
-// 	});
-// 	$('.button.book').on('click', function(){
-// 		$.post("/seatings", { seating: seatstaken});
-// 		console.log({seating: seatstaken});
-// 	});
+	// $('.checkout-button').on('click', function(){
+	// 	// $.post("/seatings", { seating: seatstaken });
+	// 	$('#post_seats').val(seatstaken.toString());
+	// 	console.log(seatstaken.toString());
+	// });
+	// $('.button.book').on('click', function(){
+	// 	$.post("/seatings", { seating: seatstaken});
+	// 	console.log({seating: seatstaken});
+	// });
 //
 // });

@@ -6,12 +6,12 @@ class SeatingsController < ApplicationController
 	# end
 
 	# Find the right controller (which points to indx page), grab all seats columns from seating tabel, join all into big array, iterate through to grab each seat id, parse that into jQuery for what those are.
-@user = User.alll
+# @user = User.alll
 	def create
 		seat = Seating.new
 		seat.seating = params[:post][:seats].split(',')
 		seat.save
-		redirect_to root
+		redirect_to '/'
 	end
 
 	# def update
