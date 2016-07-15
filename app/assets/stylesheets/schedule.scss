@@ -1,11 +1,13 @@
 #timetable {
 	margin-top: 50px;
 }
+//Sets the timeline canvas
 section#timeline {
 	width: 80%;
 	margin: 10px auto;
 	position: relative;
 }
+// Manages the vertical line
 section#timeline:before {
 	content: '';
 	display: block;
@@ -17,16 +19,21 @@ section#timeline:before {
 	height: 100%;
 	background: rgba(0,0,0,0.5);
 }
+
+// Set up canvas for each session article
 section#timeline article {
 	width: 100%;
 	margin: 0 0 20px;
 	position: relative;
 }
+
 section#timeline article:after {
 	content: '';
 	display: block;
 	clear: both;
 }
+
+//Set up article parameters
 section#timeline article div.inner {
 	width: 368px;
 	float: left;
