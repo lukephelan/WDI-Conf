@@ -181,6 +181,7 @@ section#timeline article:nth-child(13) div.inner h2:after {
 	position: absolute;
 	margin-left: 0px;
 	margin-bottom: 20px;
+	-webkit-animation-timing-function: ".dropContent";
 }
 
 .dropContent2 {
