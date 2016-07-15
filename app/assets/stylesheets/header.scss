@@ -29,13 +29,13 @@ nav {
   z-index: 3;
   color: #282CC1;
   margin: 15% 5% 5% 5%;
-  font-size: 1em;
-  // text-shadow:
-  //       3px 3px 0 #000000,
-  //     -1px -1px 0 #000000,
-  //      1px -1px 0 #000000,
-  //      -1px 1px 0 #000000,
-  //       1px 1px 0 #000000;
+  font-size: 1.2em;
+  text-shadow:
+        3px 3px 0 #bbbbbb,
+      -1px -1px 0 #bbbbbb,
+       1px -1px 0 #bbbbbb,
+       -1px 1px 0 #bbbbbb,
+        1px 1px 0 #bbbbbb;
   text-decoration: none !important;
   opacity: 0.9;
   padding: 0;
