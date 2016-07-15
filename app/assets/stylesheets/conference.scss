@@ -30,14 +30,16 @@
 	margin-top: 5%;
 	margin-right: 7%;
 	// border: 2px solid black;
-	font-size: 20px;
 	background-color: #dddddd;
 	border-radius: 27px;
 	border: 2px solid #bbbbbb;
 	box-shadow: 10px 10px 5px -3px rgba(187,187,187,1);
 }
 #description p {
-	margin: 7%;
+	margin: 5% 3% 4% 5%;
+	font-size: 20px;
+	line-height: 1.6;
+
 }
 
 #where{
@@ -55,5 +57,5 @@
 }
 
 #where * {
-	margin: 5% 3% 3% 10%;
+	margin: 5% 3% 2% 10%;
 }
