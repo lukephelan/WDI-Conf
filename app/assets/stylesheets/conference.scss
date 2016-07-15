@@ -7,9 +7,11 @@
 }
 #where #h2 p{
 	// padding: 16px;
-	margin-left: 5%;
+	margin-left: 4%;
 	color: white;
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 #description h2 {
@@ -122,6 +124,6 @@
 
 //
 #where * {
-	margin: 5% 3% 2% 4%;
+	margin: 3% 3% 2% 4%;
 	// margin-left: 5%;
 }
