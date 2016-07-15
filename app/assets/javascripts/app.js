@@ -4,7 +4,7 @@ var price = 145; //price
          $counter = $('#counter'), //counter
          $total = $('#total'); //Total money
      var seattakenstring = document.getElementsByClassName('seats-input')['post_seats']['value'];
-     var seatstaken = [];
+     var seatstaken = seattakenstring.split(' ');
      var seatsSelected = [];
 
      var sc = $('#seat-map').seatCharts({
@@ -62,6 +62,14 @@ var price = 145; //price
          });
          return total;
      }
+
+     function makeSeatsUnavailable(x){
+       for (var i = 0; i < x.length; i++){
+               sc.get(x[i]).status('unavailable');
+       };
+     };
+     change(seatstaken);
+
      $('.checkout-button').on('click', function() {
          for (var i = 0; i < seatstaken.length; i++) {
              if (sc.get(seatstaken[i]).status() == 'selected') {
