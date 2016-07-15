@@ -14,7 +14,7 @@
   left: 50%;
   border-radius: 10px;
   width: 500px;
-  height: 500px;
+  height: 400px;
   background-color: #f3f3f3;
   margin-left: -250px;
 }
@@ -26,6 +26,7 @@
   text-align: center;
   margin-top: 4%;
   padding: 23px;
+  margin-bottom: 0;
 }
 
 .close-modal {
@@ -42,4 +43,61 @@
   font-size: 12px;
   border: 2px rgb(223, 223, 223) solid;
   padding: 1px;
+}
+.booking-amount{
+  width: 35%;
+  margin: auto;
+  margin-top: 20px;
+}
+.total-amount {
+  // display: inline-block;
+  padding: 7px;
+  text-align: center;
+  border: 2px solid #c8c8c8;
+  border-radius: 5px;
+}
+.input-container-payment {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.input-container-payment input:nth-of-type(1) {
+  width: 70%;
+  height: 22px;
+  letter-spacing: 1.5px;
+  // border-radius: 5px;
+}
+.payment-input {
+  margin: 17px 10px 0px 10px;
+  width: 39%;
+  height: 22px;
+  letter-spacing: 1.5px;
+  // border-radius: 5px;
+}
+.input-container-payment i {
+  margin: 20px 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.input-container-payment button {
+  display: block;
+  width: 27%;
+  height: 30px;
+  border-radius: 5px;
+  margin: auto;
+  border: none;
+  background-color: rgb(96, 46, 79);
+  color: white;
+}
+.input-container-payment img {
+  width: 50px;
+  margin-right: 20px;
+}
+.terms {
+  padding: 15px;
+  font-size: 0.6em;
+  text-align: center;
 }
