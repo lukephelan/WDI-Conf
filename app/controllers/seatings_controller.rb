@@ -43,7 +43,7 @@ class SeatingsController < ApplicationController
 	# 		unreserve_seats << seat
 	# 	end
 	# 	render json: unreserve_seats.to_json
-	# end	
+	# end
 
 	def show
 		#insert logic to rule out seats taken

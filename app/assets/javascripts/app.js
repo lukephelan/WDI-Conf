@@ -68,7 +68,7 @@ var price = 145; //price
                sc.get(x[i]).status('unavailable');
        };
      };
-     change(seatstaken);
+     makeSeatsUnavailable(seatstaken);
 
      $('.checkout-button').on('click', function() {
          for (var i = 0; i < seatstaken.length; i++) {
