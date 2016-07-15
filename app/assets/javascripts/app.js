@@ -1,9 +1,10 @@
 var price = 145; //price
  $(document).ready(function() {
      var $cart = $('#selected-seats'), //Sitting Area
-         $counter = $('#counter'), //Votes
+         $counter = $('#counter'), //counter
          $total = $('#total'); //Total money
-     var seatstaken = document.getElementsByClassName('seats-input')['post_seats']['value'];
+     var seattakenstring = document.getElementsByClassName('seats-input')['post_seats']['value'];
+     var seatstaken = [];
      var seatsSelected = [];
 
      var sc = $('#seat-map').seatCharts({
@@ -71,10 +72,13 @@ var price = 145; //price
          seatsSelected = $.unique(seatsSelected);
          $('.seats-input').val(seatsSelected);
          console.log(seatsSelected);
+         $('.selected-seats').val(seatsSelected);
      });
      $('.reset-button').on('click', function() {
          sc.find('selected').each(function() {
-             this.status('available');
+            $total.text(0);
+            $counter.text(sc.find('selected').length - 1);
+            this.status('available');
          });
      });
  });

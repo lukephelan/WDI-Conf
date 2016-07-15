@@ -14,23 +14,6 @@ $('a[href*="#"]:not([href="#"])').click(function () {
             }
         }
     });
-
-
-
-    // var height = $(window).scroll(function(){
-    //     if ( height.scrollTop() > profileDiv &&  height.scrollTop() < sponsor) {
-    //         $('#sponsor').css('color', 'white');
-    //         $('#foot').css('color', 'white');
-    //     } else {
-    //       $('#sponsor').css('color', '#282CC1');
-    //       $('#foot').css('color', '#282CC1');
-    //
-    //     }
-    // });
-
-
-
-
         $(document).on("scroll", function () {
           var profileDiv = $("#Profile").offset().top;
           var footerStart = $("#footerStart").offset().top;
@@ -42,22 +25,7 @@ $('a[href*="#"]:not([href="#"])').click(function () {
 
 
             if (heightTop < splashbottom) {$('.navbar').css('margin-right', '-30%')}
-            else {$('.navbar').css('margin-right', '2%')};
-
-            // if (height < 485) {$('#top').css('margin-right', '-30%')}
-            // else {$('#top').css('margin-right', '2%')};
-            // if (height < 445) {$('#conf').css('margin-right', '-30%')}
-            // else {$('#conf').css('margin-right', '2%')};
-            // if (height < 405) {$('#time').css('margin-right', '-30%')}
-            // else {$('#time').css('margin-right', '2%')};
-            // if (height < 365) {$('#profile').css('margin-right', '-30%')}
-            // else {$('#profile').css('margin-right', '2%')};
-            // if (height < 325) {$('#seats').css('margin-right', '-30%')}
-            // else {$('#seats').css('margin-right', '2%')};
-            // if (height < 285) {$('#sponsor').css('margin-right', '-30%')}
-            // else {$('#sponsor').css('margin-right', '2%')};
-            // if (height < 245) {$('#foot').css('margin-right', '-30%')}
-            // else {$('#foot').css('margin-right', '2%')};
+            else {$('.navbar').css('margin-right', '0%')};
 
             if (heightTop > profileDiv && heightTop < bookingEnd || heightTop > footerStart){$("#top").css('color', 'white')}
             else {$("#top").css('color', '#282CC1')}
