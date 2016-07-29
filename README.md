@@ -2,6 +2,8 @@
 
 WDI Conference 2017 is a mock web development conference coordinated by General Assembly's immersive students.
 
+Hosted version:[https://wdiconf-br0c0d3.herokuapp.com/](https://wdiconf-br0c0d3.herokuapp.com/).
+
 # Project Scope
 
 Our class was instructed to develop a Single Page Application (SPA) for a notional technology conference hosted at General Assembly with the following contents:
